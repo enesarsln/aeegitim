@@ -15,15 +15,12 @@ const Facilities = () => {
             >
               <div className="second-facility-item">
                 <img src="/img/facility-img/facility-icon1.png" alt="Image" />
-                <h3>Qualified Doctors</h3>
+                <h3>Eğitmenlerle Uzmanlığımız</h3>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore.
+                Eğitmenlerimiz, alanlarında uzman ve deneyimlidir.
+                Sizi en iyi şekilde eğitmek için tutku ve bilgiyle çalışırlar.
+                Size rehberlik ederek başarınızı sağlarlar.
                 </p>
-
-                <Link href="/service-details" className="read-more">
-                  Read More <i className="bx bx-plus"></i>
-                </Link>
               </div>
             </div>
 
@@ -34,16 +31,11 @@ const Facilities = () => {
               data-aos-duration="1200"
             >
               <div className="second-facility-item">
-                <img src="/img/facility-img/facility-icon2.png" alt="Image" />
-                <h3>Emergency Helicopter</h3>
+                <img src="/img/facility-img/facility-icon7.png" alt="Image" />
+                <h3>Kariyerinizi Şekillendirme Fırsatı</h3>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore.
+                Mezunlarımızı iş dünyasına hazırlamak ve kariyer hedeflerinize ulaşmanıza yardımcı olmak için buradayız.
                 </p>
-
-                <Link href="/service-details" className="read-more">
-                  Read More <i className="bx bx-plus"></i>
-                </Link>
               </div>
             </div>
 
@@ -55,15 +47,11 @@ const Facilities = () => {
             >
               <div className="second-facility-item">
                 <img src="/img/facility-img/facility-icon3.png" alt="Image" />
-                <h3>Leading Technology</h3>
+                <h3>Başarı İçin En İyi Ortam</h3>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore.
+                Eğitim alanlarımız modern ve donanımlıdır.
+                Mesleğe hazırlık için sizi en iyi şekilde donatırız ve ileri düzeyde eğitim sunarız.
                 </p>
-
-                <Link href="/service-details" className="read-more">
-                  Read More <i className="bx bx-plus"></i>
-                </Link>
               </div>
             </div>
           </div>
