@@ -8,100 +8,68 @@ const AppointmentForm = () => {
       <div className="appointment-area jarallax ptb-50">
         <div className="container">
           <div className="appointment-here-form">
-            <span className="top-title">Make An Appointment</span>
-            <h2>We Are Here For You</h2>
+            <span className="top-title">İletişim</span>
+            <h2>Size Ulaşalım</h2>
 
             <form>
               <div className="row">
                 <div className="col-lg-6 col-sm-6">
-                  <label>Your Name</label>
+                  <label>Ad Soyad</label>
                   <div className="form-group">
                     <input
                       type="text"
                       className="form-control"
                       id="Name"
-                      placeholder="Enter Your Name"
+                      placeholder="Ad ve soyadınızı yazın"
                     />
                     <i className="flaticon-account"></i>
                   </div>
                 </div>
 
                 <div className="col-lg-6 col-sm-6">
-                  <label>Your Email</label>
+                  <label>Email</label>
                   <div className="form-group">
                     <input
                       type="text"
                       className="form-control"
                       id="Email"
-                      placeholder="Enter Your Email"
+                      placeholder="Email adresinizi yazın"
                     />
                     <i className="flaticon-email"></i>
                   </div>
                 </div>
 
                 <div className="col-lg-6 col-sm-6">
-                  <label>Your Phone</label>
+                  <label>Cep Telefonu</label>
                   <div className="form-group">
                     <input
                       type="text"
                       className="form-control"
                       id="Phone"
-                      placeholder="Enter Your Phone"
+                      placeholder="Telefon Numaranızı yazın"
                     />
                     <i className="flaticon-smartphone"></i>
                   </div>
                 </div>
 
                 <div className="col-lg-6 col-sm-6">
-                  <label>Select Service</label>
+                  <label>Konu</label>
                   <div className="form-group">
                     <select className="form-control">
-                      <option value="0">Select Service</option>
-                      <option value="1">Surgery & Radiology</option>
-                      <option value="2">Children Care</option>
-                      <option value="3">Orthopedics</option>
-                      <option value="4">Nuclear Magnetic</option>
-                      <option value="5">Eye Treatment</option>
-                      <option value="6">X-Ray</option>
+                      <option value="0">Bir konu seçin</option>
+                      <option value="1">Porselen Laminate</option>
+                      <option value="2">İmplant Destekli Protezler</option>
+                      <option value="3">Temporodibular</option>
+                      <option value="4">Eğitim İmkanları</option>
+                      <option value="5">Diplomalar</option>
+                      <option value="6">Fiyatlar</option>
                     </select>
                     <i className="flaticon-heart"></i>
                   </div>
                 </div>
 
-                <div className="col-lg-6 col-sm-6">
-                  <label>Appointment Date</label>
-                  <div className="form-group">
-                    <div className="input-group date">
-                      <DatePicker
-                        selected={startDate}
-                        onChange={(date) => setStartDate(date)}
-                        className="form-control"
-                      />
-                    </div>
-                    <i className="flaticon-appointment"></i>
-                  </div>
-                </div>
-
-                <div className="col-lg-6 col-sm-6">
-                  <label>Time</label>
-                  <div className="form-group">
-                    <select className="form-control">
-                      <option value="0">Seclect Time</option>
-                      <option value="2">09.00 AM To 10.00 AM</option>
-                      <option value="3">10.00 AM To 11.00 AM</option>
-                      <option value="3">11.00 AM To 12.00 PM</option>
-                      <option value="4">12.00 PM To 01.00 PM</option>
-                      <option value="5">01.00 PM To 03.00 PM</option>
-                      <option value="6">04.00 PM To 06.00 PM</option>
-                      <option value="7">07.00 PM To 10.00 PM</option>
-                      <option value="8">10.00 PM To 11.00 PM</option>
-                    </select>
-                    <i className="flaticon-clock"></i>
-                  </div>
-                </div>
-
                 <div className="col-lg-12">
-                  <label>Message</label>
+                  <label>Mesaj</label>
                   <div className="form-group">
                     <textarea
                       name="message"
@@ -109,7 +77,7 @@ const AppointmentForm = () => {
                       id="Message"
                       cols="30"
                       rows="8"
-                      placeholder="Your Message"
+                      placeholder="Eklemek istediğiniz bir şey ?"
                     ></textarea>
                     <i className="flaticon-edit"></i>
                   </div>
@@ -117,7 +85,7 @@ const AppointmentForm = () => {
 
                 <div className="col-12">
                   <button type="submit" className="default-btn">
-                    Send Request
+                    Gönder
                   </button>
                 </div>
               </div>

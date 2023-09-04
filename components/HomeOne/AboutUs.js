@@ -27,39 +27,39 @@ const AboutUs = () => {
 
             <div className="col-lg-6">
               <div className="about-content">
-                <span className="top-title">About Us</span>
-                <h2>We are trusted The Best Certificate Healthcare</h2>
+                <span className="top-title">Hakkımızda</span>
+                <h2>Biz kimiz ve neden bizimle yola çıkmalısınız ?</h2>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
-                  maecenas accumsan lacus vel facilisis.
+                Neden bizimle çalışmanız gerektiğini merak ediyor musunuz? 
+                İşte size neden güçlü bir tercih olduğumuzu ve hakkımızda 
+                daha fazla bilgi edinmek için bize neden katılmanız gerektiğini anlatan 5 önemli neden:
                 </p>
 
                 <ul>
                   <li>
                     <i className="flaticon-tick"></i>
-                    Scientific skills for getting a better result
-                  </li>
-                  <li>
-                    <i className="flaticon-tick"></i>A good environment for work
+                    Alanında Uzman Öğretmenler
                   </li>
                   <li>
                     <i className="flaticon-tick"></i>
-                    Professional doctors
+                    Gelişmiş Kaynaklar
                   </li>
                   <li>
                     <i className="flaticon-tick"></i>
-                    Digital laboratory
+                    Pratik Beceriler
                   </li>
                   <li>
                     <i className="flaticon-tick"></i>
-                    Emergency services
+                    Kişiselleştirilmiş Eğitim
+                  </li>
+                  <li>
+                    <i className="flaticon-tick"></i>
+                    Kariyer Desteği
                   </li>
                 </ul>
 
                 <Link href="/about" className="default-btn">
-                  About Us
+                   Özgeçmiş
                 </Link>
               </div>
             </div>
