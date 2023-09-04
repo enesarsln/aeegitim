@@ -28,7 +28,7 @@ const MainBanner = () => {
                       data-aos-delay="100"
                       data-aos-duration="1200"
                     >
-                      Smarter Service Care
+                      Bilgi ve Uygulama Bir Arada
                     </span>
 
                     <h1
@@ -36,7 +36,7 @@ const MainBanner = () => {
                       data-aos-delay="200"
                       data-aos-duration="1200"
                     >
-                      We are Committed to Your Best Health
+                      Gülümsemeyi Yeniden İnşa Etmek
                     </h1>
 
                     <p
@@ -44,9 +44,7 @@ const MainBanner = () => {
                       data-aos-delay="300"
                       data-aos-duration="1200"
                     >
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua gravida. Risus commodo.
+                      Profesyonel Sağlık Eğitmenleri ile Yolculuğunuza Başlayın ve Bilgiye Doğru Adım Atın.
                     </p>
 
                     <div
@@ -55,15 +53,12 @@ const MainBanner = () => {
                       data-aos-delay="400"
                       data-aos-duration="1200"
                     >
-                      <Link href="/appointment" className="default-btn">
-                        Book An Appointment
-                      </Link>
 
                       <div
                         onClick={() => setOpen(true)}
                         className="default-btn active popup-youtube"
                       >
-                        Play Now
+                        Bizi tanıyın
                       </div>
                     </div>
                   </div>
@@ -100,10 +95,10 @@ const MainBanner = () => {
                       data-aos-duration="1200"
                     >
                       <i className="flaticon-care"></i>
-                      <h3>Special Service</h3>
+                      <h3>Sizlerle Her Adımda</h3>
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do
+                      Eğitim süreciniz boyunca ve sonrasında, sizin yanınızdayız. 
+                      Profesyonel desteğimizle başarınıza katkıda bulunuyoruz.
                       </p>
                     </div>
                   </div>
@@ -116,10 +111,10 @@ const MainBanner = () => {
                       data-aos-duration="1200"
                     >
                       <i className="flaticon-support"></i>
-                      <h3>24/7 Advanced Care</h3>
+                      <h3>Her Zaman Yanınızdayız</h3>
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do
+                      İhtiyacınız olduğu her an, 7/24 sizinleyiz.
+                       Size her konuda yardımcı olmak için buradayız.
                       </p>
                     </div>
                   </div>
@@ -132,10 +127,10 @@ const MainBanner = () => {
                       data-aos-duration="1200"
                     >
                       <i className="flaticon-online-learning"></i>
-                      <h3>Get Result Online</h3>
+                      <h3>Hedeflerinizi Aşın</h3>
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do
+                      Eğitimlerimiz, başarıya odaklanır ve beklentilerinizi karşılamayı hedefler. 
+                      Siz de hedeflerinizi gerçekleştirmeye başlayın.
                       </p>
                     </div>
                   </div>
