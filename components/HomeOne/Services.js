@@ -7,12 +7,11 @@ const Services = () => {
       <div className="services-area bg pt-100 pb-70">
         <div className="container">
           <div className="section-title">
-            <span className="top-title">Our Services</span>
-            <h2>Our Healthcare Service</h2>
+            <span className="top-title">Sunduğumuz imkanlar</span>
+            <h2>Eğitimde Sunduğumuz İmkanlar</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. A facilis
-              vel consequatur tempora atque blanditiis exercitationem incidunt,
-              alias corporis quam assumenda dicta, temporibus.
+            Eğitimlerimizi daha verimli ve etkili hale getirmek için çeşitli imkanlar sunuyoruz. 
+            İşte size sunduğumuz bazı eğitim imkanları:
             </p>
           </div>
 
@@ -25,15 +24,10 @@ const Services = () => {
             >
               <div className="single-services">
                 <span className="flaticon-man"></span>
-                <h3>Cancer Service</h3>
+                <h3>Modern Eğitim Ortamı</h3>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore dolore
+                Eğitimlerimizi en son teknoloji ve donanımla desteklenmiş sınıflarda sunarız.
                 </p>
-
-                <Link href="/service-details" className="read-more">
-                  Read More <i className="bx bx-plus"></i>
-                </Link>
 
                 <div className="services-shape">
                   <img src="/img/services-card-shape.png" alt="Image" />
@@ -49,16 +43,10 @@ const Services = () => {
             >
               <div className="single-services">
                 <span className="flaticon-liver"></span>
-                <h3>Liver Transport</h3>
+                <h3>Uzman Eğitmenler</h3>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore dolore
+                Alanlarında uzman eğitmenlerimiz, size en güncel bilgileri ve pratiği sunar.
                 </p>
-
-                <Link href="/service-details" className="read-more">
-                  Read More <i className="bx bx-plus"></i>
-                </Link>
-
                 <div className="services-shape">
                   <img src="/img/services-card-shape.png" alt="Image" />
                 </div>
@@ -73,16 +61,10 @@ const Services = () => {
             >
               <div className="single-services">
                 <span className="flaticon-kidney"></span>
-                <h3>Kidney Transport</h3>
+                <h3>Pratik Uygulamalar</h3>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore dolore
+                Teorik bilgiyi pratik uygulamalarla birleştirerek öğrenmenizi destekleriz.
                 </p>
-
-                <Link href="/service-details" className="read-more">
-                  Read More <i className="bx bx-plus"></i>
-                </Link>
-
                 <div className="services-shape">
                   <img src="/img/services-card-shape.png" alt="Image" />
                 </div>
@@ -97,16 +79,10 @@ const Services = () => {
             >
               <div className="single-services">
                 <span className="flaticon-heart"></span>
-                <h3>Cardiac Arrhythmia</h3>
+                <h3>Kişisel Danışmanlık</h3>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore dolore
+                Her öğrenciye kişisel danışmanlık sağlayarak ihtiyaçlarınıza özel destek sunarız.
                 </p>
-
-                <Link href="/service-details" className="read-more">
-                  Read More <i className="bx bx-plus"></i>
-                </Link>
-
                 <div className="services-shape">
                   <img src="/img/services-card-shape.png" alt="Image" />
                 </div>
@@ -121,16 +97,10 @@ const Services = () => {
             >
               <div className="single-services">
                 <span className="flaticon-brain"></span>
-                <h3>Neurology Care</h3>
+                <h3>Kariyer Gelişimi</h3>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore dolore
+                İş bulma, staj ve kariyer gelişimi konularında rehberlik ederiz
                 </p>
-
-                <Link href="/service-details" className="read-more">
-                  Read More <i className="bx bx-plus"></i>
-                </Link>
-
                 <div className="services-shape">
                   <img src="/img/services-card-shape.png" alt="Image" />
                 </div>
@@ -145,16 +115,10 @@ const Services = () => {
             >
               <div className="single-services">
                 <span className="flaticon-walker"></span>
-                <h3>Orthopedic Care</h3>
+                <h3>Çevrimiçi Kaynaklar</h3>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore dolore
+                Eğitim materyallerine ve kaynaklara çevrimiçi erişim sağlarız, böylece öğrenme deneyiminizi destekleriz.
                 </p>
-
-                <Link href="/service-details" className="read-more">
-                  Read More <i className="bx bx-plus"></i>
-                </Link>
-
                 <div className="services-shape">
                   <img src="/img/services-card-shape.png" alt="Image" />
                 </div>
