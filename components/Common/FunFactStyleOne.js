@@ -16,10 +16,10 @@ const FunFactStyleOne = () => {
                 <i className="flaticon-man"></i>
 
                 <h2>
-                  540<span className="target">+</span>
+                  20<span className="target">+</span>
                 </h2>
 
-                <p>Expert Doctors</p>
+                <p>Deneyimli Eğitmen</p>
               </div>
             </div>
 
@@ -33,10 +33,10 @@ const FunFactStyleOne = () => {
                 <i className="flaticon-tick"></i>
 
                 <h2>
-                  990<span className="target">+</span>
+                  500<span className="target">+</span>
                 </h2>
 
-                <p>Successful Story</p>
+                <p>Başarılı Mezun</p>
               </div>
             </div>
 
@@ -50,10 +50,10 @@ const FunFactStyleOne = () => {
                 <i className="flaticon-trophy"></i>
 
                 <h2>
-                  3500<span className="traget">+</span>
+                  10<span className="traget">+</span>
                 </h2>
 
-                <p>Global Presence</p>
+                <p>Ödül</p>
               </div>
             </div>
 
@@ -67,10 +67,10 @@ const FunFactStyleOne = () => {
                 <i className="flaticon-experience"></i>
 
                 <h2>
-                  54<span className="traget">+</span>
+                  5<span className="traget">+</span>
                 </h2>
 
-                <p>Experiences</p>
+                <p>Sorgulanabilir Diploma</p>
               </div>
             </div>
           </div>
