@@ -21,10 +21,9 @@ const Footer = () => {
                 </Link>
 
                 <p>
-                  Lorem ipsum dolor, sit amet earum consectetur adipisicing
-                  elit. Cupiditate rerum quidem fugiat sapiente! Iusto quae
-                  perspiciatis, repudiandae ipsam minus et ex, aliquid dolor
-                  molestias, earum enim officiis porro obcaecati.
+                Kurumumuz, sağlık eğitimi konusunda uzmandır ve öğrencilerine mükemmel 
+                bir eğitim deneyimi sunmayı taahhüt eder. 
+                Bizimle iletişime geçin ve geleceğinize doğru bir adım atın.
                 </p>
 
                 <div className="social-area">
@@ -69,25 +68,16 @@ const Footer = () => {
                 data-aos-delay="200"
                 data-aos-duration="1200"
               >
-                <h3>Departments</h3>
+                <h3>Kurslar</h3>
                 <ul>
                   <li>
-                    <Link href="#">Surgery & Radiology</Link>
+                    <Link href="#">Porselen Laminate</Link>
                   </li>
                   <li>
-                    <Link href="#">Children Care</Link>
+                    <Link href="#">İmplant Destekli Protezler</Link>
                   </li>
                   <li>
-                    <Link href="#">Orthopedics</Link>
-                  </li>
-                  <li>
-                    <Link href="#">Nuclear Magnetic</Link>
-                  </li>
-                  <li>
-                    <Link href="#">Eye Treatment</Link>
-                  </li>
-                  <li>
-                    <Link href="#">X-Ray</Link>
+                    <Link href="#">Temporodibular</Link>
                   </li>
                 </ul>
               </div>
@@ -100,23 +90,19 @@ const Footer = () => {
                 data-aos-delay="300"
                 data-aos-duration="1200"
               >
-                <h3>Opening Hours</h3>
+                <h3>Çalışma Saatlerimiz</h3>
                 <ul>
                   <li>
-                    <span>Mon-Tue:</span>
-                    <span className="right">6:00 AM - 10:00 PM</span>
+                    <span>Pzt-Cum:</span>
+                    <span className="right">09:00 - 17:00</span>
                   </li>
                   <li>
-                    <span>Wed-Thu:</span>
-                    <span className="right">6:00 AM - 10:00 PM</span>
+                    <span>Cmt:</span>
+                    <span className="right">09:00 - 15:00</span>
                   </li>
                   <li>
-                    <span>Fry:</span>
-                    <span className="right">6:00 AM - 04:00 PM</span>
-                  </li>
-                  <li>
-                    <span>Sun:</span>
-                    <span className="right">Closed</span>
+                    <span>Paz:</span>
+                    <span className="right">Kapalı</span>
                   </li>
                 </ul>
               </div>
@@ -129,26 +115,26 @@ const Footer = () => {
                 data-aos-delay="400"
                 data-aos-duration="1200"
               >
-                <h3>Get In Touch</h3>
+                <h3>İletişim</h3>
                 <ul>
                   <li>
                     <a href="tel:+822456974">
                       <i className="bx bx-phone-call"></i>
-                      <span>Hotline:</span>
-                      Phone: +822456974
+                      <span>Telefon:</span>
+                       +012-345-67-89
                     </a>
                   </li>
                   <li>
                     <a href="mailto:hello@corf.com">
                       <i className="bx bx-envelope"></i>
                       <span>Email:</span>
-                      hello@corf.com
+                      iletişim@info.com
                     </a>
                   </li>
                   <li>
                     <i className="bx bx-location-plus"></i>
-                    <span>Address:</span>
-                    123, Western Road, Melbourne Australia
+                    <span>Adress</span>
+                    Türkiye
                   </li>
                 </ul>
               </div>
@@ -161,10 +147,7 @@ const Footer = () => {
         <div className="container">
           <div className="copy-right">
             <p>
-              Copyright &copy; {currentYear} Corf Designed by{" "}
-              <a href="https://envytheme.com/" target="blank">
-                EnvyTheme
-              </a>
+            Copyright &copy; {currentYear} | AAEGITIM
             </p>
           </div>
         </div>
