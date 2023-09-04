@@ -5944,3 +5944,40 @@ Page-navigation Area Style*/
 .invalid-feedback {
   font-size: 14px;
 }/*# sourceMappingURL=style.css.map */
+
+
+/* ==== Özgeçmiş Page ===== */
+.about-us-main-text{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5vh;
+  background: linear-gradient(135deg, #fff, #fff, #e1fafa, #e1fafa, #fff, #fff);
+  border-radius: 2em;
+  animation: about-bg-anm 4s infinite linear;
+  background-size: 200% 200%;
+}
+
+@keyframes about-bg-anm {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.about-us-main-text .about-us-title{
+  text-align: center;
+}
+
+.about-us-main-text .about-us-text{
+  width: 80%;
+}
+.about-us-main-text .about-us-text p{
+  font-size: 1.1rem;
+}

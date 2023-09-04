@@ -70,7 +70,7 @@ const Navbar = () => {
                     <ul className="navbar-nav m-auto">
                       <li className="nav-item">
                         <Link
-                          href="#"
+                          href="/"
                           onClick={(e) => e.preventDefault()}
                           className="nav-link"
                         >
@@ -92,7 +92,7 @@ const Navbar = () => {
                         <ul className="dropdown-menu">
                           <li className="nav-item">
                             <Link
-                              href="/doctors/"
+                              href="/"
                               className={`nav-link ${
                                 currentPath == "/doctors/" && "active"
                               }`}
@@ -103,7 +103,7 @@ const Navbar = () => {
 
                           <li className="nav-item">
                             <Link
-                              href="/privacy-policy/"
+                              href="/"
                               className={`nav-link ${
                                 currentPath == "/privacy-policy/" && "active"
                               }`}
@@ -114,7 +114,7 @@ const Navbar = () => {
 
                           <li className="nav-item">
                             <Link
-                              href="/privacy-policy/"
+                              href="/"
                               className={`nav-link ${
                                 currentPath == "/privacy-policy/" && "active"
                               }`}
@@ -138,7 +138,7 @@ const Navbar = () => {
 
                       <li className="nav-item">
                         <Link
-                          href="/about/"
+                          href="/"
                           className={`nav-link ${
                             currentPath == "/about/" && "active"
                           }`}
@@ -149,7 +149,7 @@ const Navbar = () => {
 
                       <li className="nav-item">
                         <Link
-                          href="/about/"
+                          href="/"
                           className={`nav-link ${
                             currentPath == "/about/" && "active"
                           }`}
@@ -161,7 +161,7 @@ const Navbar = () => {
 
                       <li className="nav-item">
                         <Link
-                          href="/contact/"
+                          href="/"
                           className={`nav-link ${
                             currentPath == "/contact/" && "active"
                           }`}
