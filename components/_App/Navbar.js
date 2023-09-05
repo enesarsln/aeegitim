@@ -162,9 +162,9 @@ const Navbar = () => {
 
                       <li className="nav-item">
                         <Link
-                          href="/"
+                          href="/contact/"
                           className={`nav-link ${
-                            currentPath == "//" && "active"
+                            currentPath == "/contact/" && "active"
                           }`}
                         >
                           İletişim

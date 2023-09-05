@@ -1,9 +1,8 @@
 import React from "react";
 import Navbar from "../components/_App/Navbar";
 import PageBanner from "../components/Common/PageBanner";
-import ContactInfo from "../components/ContactUs/ContactInfo";
+import ContactContent from "../components/ContactUs/ContactContent";
 import ContactForm from "../components/ContactUs/ContactForm";
-import Subscribe from "../components/Common/Subscribe";
 import Footer from "../components/_App/Footer";
 
 const Contact = () => {
@@ -18,11 +17,9 @@ const Contact = () => {
         activePageText="Contact"
         imgClass="bg-1"
       />
-      <ContactInfo />
+      <ContactContent />
 
-      <ContactForm />
-
-      <Subscribe />
+     <ContactForm />
 
       <Footer />
     </>

@@ -13,28 +13,18 @@ const AboutUsText = () => {
         <div className="row about-us-text">
           <div className="col-md-12 mb-4">
           <p>
-            Firmamız, sağlık eğitimi konusunda uzmanlaşmış bir eğitim kurumudur. 
-            Öğrencilere mesleki gelişimlerini destekleyen yüksek kaliteli eğitimler sunuyoruz. 
-            Hem porselen laminate, implant destekli protezler hem de temporodibular gibi önemli 
-            alanlarda kurslarımız bulunmaktadır. Uzman eğitmenlerimiz, modern eğitim 
-            kaynakları ve kişiselleştirilmiş destekle öğrencilerimizin başarısını maksimum seviyeye 
-            çıkarmak için çalışıyoruz.
-          </p>
-          <p>
-            Bizim için eğitim sadece bilgi aktarımından daha fazlasını ifade eder. Öğrencilerimize 
-            güçlü temeller kazandırmak ve mesleki becerilerini geliştirmelerine yardımcı olmak 
-            amacıyla elimizden gelenin en iyisini yaparız. Eğitmenlerimiz, öğrencilerimizin 
-            ihtiyaçlarına özel olarak yaklaşır ve onları destekler.
-          </p>
-          <p>
-            Aynı zamanda, kariyer gelişimi konusunda da güçlü bir şekilde destek sunarız. İş bulma, 
-            staj olanakları ve kariyer planlaması gibi konularda öğrencilerimize rehberlik ederiz. 
-            Sizin başarınız, bizim başarımızdır.
-          </p>
-          <p>
-            Size daha iyi bir eğitim deneyimi sunmak ve geleceğinizi parlak bir şekilde 
-            şekillendirmeniz için buradayız. Bizimle çalışarak, sağlık alanındaki hedeflerinize 
-            bir adım daha yaklaşabilirsiniz.
+          A. Atila Ertan, yılında TED Ankara Kolejinden ve 1994 yılında Hacettepe
+           Üniversitesi Dişhekimliği Fakültesi’nden mezun oldu. H.Ü. Dişhekimliği 
+           Fakültesi Protetik Diş Tedavisi bölümünde başladığı doktora eğitimini
+            2001 yılında başarı ile bitirerek aynı bölümde uzman doktor olarak
+             çalışmaya başladı. 2005-06 yılında Hollanda, Amsterdam’da TÜBİTAK 
+              BİDEB doktora sonrası araştırma programı ile misafir araştırmacı
+               olarak çalışmalarda bulundu. 2010 yılında Yrd. Doç. Dr., 2011 
+               yılında Doç. Dr. ve 2018 yılında Profesör ünvanlarını aldı. 
+               2013 yılından beri 120'nin üzerinde mezuniyet sonrasına yönelik
+                uygulamalı kurslar verdi. Verdiği kurslar implant destekli protezler,
+                 porselen laminate veneer, dental fotoğrafçılık, temporomandibular 
+                 eklem rahatsızlıkları, splint yapımı ve horlama apareyi üzerinedir.
           </p>
           </div>
         </div>

@@ -948,6 +948,26 @@
   .blog-right-sidebar {
     padding-left: 0;
   }
+  .contact-content-container{
+    flex-direction: column;
+  }
+  .contact-content-container .contact-content-map{
+    width: 80%;
+    height: 35vh;
+    margin-bottom: 5vh;
+  }
+  .contact-content-container .contact-content-info{
+    width: 90%;
+    height: auto;
+    margin-top: 5vh;
+  }
+  .contact-content-info ul li span{
+    font-size: .8rem;
+  }
+  
+  .contact-content-info ul li p{
+    font-size: .8rem;
+  }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .header-area .top-header-area .header-content-right {
