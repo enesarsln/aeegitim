@@ -6030,3 +6030,47 @@ Page-navigation Area Style*/
 .contact-content-info ul li p{
   font-size: 1rem;
 }
+
+
+/* === Office === */
+
+.office-content-container {
+  width: 80%;
+  height: auto;
+  margin: 5vh auto;
+}
+
+.office-content-container .office-content-box{
+  display: flex;
+  width: 100%;
+  height: 35vh;
+  margin: 5vh auto;
+  box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #fff, #fff, #f5ffff, #f5ffff, #fff, #fff);
+  animation: about-bg-anm 4s infinite linear;
+  background-size: 200% 200%;
+}
+
+.office-content-box .office-content-img{
+  width: 40%;
+  height: 100%;
+}
+
+.office-content-img img{
+  width: 100%;
+  height: 100%;
+  border-radius: 10px 0px 0px 10px;
+}
+
+.office-content-box .office-content-text{
+  width: 60%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.office-content-text p{
+  width: 80%;
+  margin: auto;
+}

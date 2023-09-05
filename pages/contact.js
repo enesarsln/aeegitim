@@ -11,12 +11,13 @@ const Contact = () => {
       <Navbar />
 
       <PageBanner
-        pageTitle="Contact"
+        pageTitle="İletişim"
         homePageUrl="/"
-        homePageText="Home"
-        activePageText="Contact"
+        homePageText="Anasayfa"
+        activePageText="İletişim"
         imgClass="bg-1"
       />
+      
       <ContactContent />
 
      <ContactForm />

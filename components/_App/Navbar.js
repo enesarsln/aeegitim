@@ -139,7 +139,7 @@ const Navbar = () => {
 
                       <li className="nav-item">
                         <Link
-                          href="/"
+                          href="/office/"
                           className={`nav-link ${
                             currentPath == "//" && "active"
                           }`}
