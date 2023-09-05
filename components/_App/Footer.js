@@ -134,7 +134,7 @@ const Footer = () => {
                   <li>
                     <i className="bx bx-location-plus"></i>
                     <span>Adress</span>
-                    Türkiye
+                    Kızılırmak mahallesi Dumlupınar Bulvarı No:9/A ofis no:248 kat:7 YDA Center Çankaya Ankara
                   </li>
                 </ul>
               </div>

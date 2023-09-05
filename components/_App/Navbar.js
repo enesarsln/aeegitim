@@ -68,11 +68,12 @@ const Navbar = () => {
 
                   <div className={classOne} id="navbarSupportedContent">
                     <ul className="navbar-nav m-auto">
-                      <li className="nav-item">
+                    <li className="nav-item">
                         <Link
                           href="/"
-                          onClick={(e) => e.preventDefault()}
-                          className="nav-link"
+                          className={`nav-link ${
+                            currentPath == "//" && "active"
+                          }`}
                         >
                           Anasayfa
                         </Link>
@@ -94,7 +95,7 @@ const Navbar = () => {
                             <Link
                               href="/"
                               className={`nav-link ${
-                                currentPath == "/doctors/" && "active"
+                                currentPath == "//" && "active"
                               }`}
                             >
                               Porselen Laminate
@@ -105,7 +106,7 @@ const Navbar = () => {
                             <Link
                               href="/"
                               className={`nav-link ${
-                                currentPath == "/privacy-policy/" && "active"
+                                currentPath == "//" && "active"
                               }`}
                             >
                               İmplant Destekli Protezler
@@ -116,7 +117,7 @@ const Navbar = () => {
                             <Link
                               href="/"
                               className={`nav-link ${
-                                currentPath == "/privacy-policy/" && "active"
+                                currentPath == "//" && "active"
                               }`}
                             >
                               Temporodibular
@@ -140,7 +141,7 @@ const Navbar = () => {
                         <Link
                           href="/"
                           className={`nav-link ${
-                            currentPath == "/about/" && "active"
+                            currentPath == "//" && "active"
                           }`}
                         >
                           Ofis Tanıtım
@@ -151,7 +152,7 @@ const Navbar = () => {
                         <Link
                           href="/"
                           className={`nav-link ${
-                            currentPath == "/about/" && "active"
+                            currentPath == "//" && "active"
                           }`}
                         >
                           Blog
@@ -163,7 +164,7 @@ const Navbar = () => {
                         <Link
                           href="/"
                           className={`nav-link ${
-                            currentPath == "/contact/" && "active"
+                            currentPath == "//" && "active"
                           }`}
                         >
                           İletişim
