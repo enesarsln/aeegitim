@@ -18,7 +18,7 @@ const Office = () =>{
         imgClass="bg-1"
       />
 
-        <span className="top-title" style={{textAlign:"center", width:"100%", marginTop: "3vh"}}>Ofis Tanıtım</span>
+        <span className="top-title" style={{textAlign:"center", width:"100%", marginTop: "5vh"}}>Ofis Tanıtım</span>
 
         <OfficeContent />
 
