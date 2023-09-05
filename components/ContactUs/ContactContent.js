@@ -19,11 +19,11 @@ const ContactContent = () => {
                 </li>
                 <li>
                     <span>Email:</span>
-                    <p>iletisim@info.com</p>
+                    <p>info@aeegitim.com.tr</p>
                 </li>
                 <li>
                     <span>Çalışma Saatleri:</span>
-                    <p>09:00 17:00</p>
+                    <p>09:00 - 17:00</p>
                 </li>
             </ul>
             </div>

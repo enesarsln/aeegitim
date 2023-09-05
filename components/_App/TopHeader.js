@@ -15,13 +15,13 @@ const TopHeader = () => {
                 <li>
                   <a href="tel:+822456974">
                     <i className="bx bx-phone-call"></i>
-                     +012-345-67-89
+                    +90 535 876 53 23
                   </a>
                 </li>
                 <li>
                   <a href="mailto:hello@info.com">
                     <i className="bx bxs-paper-plane"></i>
-                     iletisim@info.com
+                    info@aeegitim.com.tr
                   </a>
                 </li>
               </ul>
@@ -40,10 +40,12 @@ const TopHeader = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.pinterest.com/" target="_blank">
-                    <i className="bx bxl-pinterest-alt"></i>
+                  <a href="https://wa.me/+905358765323" target="_blank">
+                    <i className="bx bxl-whatsapp"></i>
                   </a>
                 </li>
+
+
                 <li>
                   <a href="https://www.instagram.com/" target="_blank">
                     <i className="bx bxl-instagram"></i>

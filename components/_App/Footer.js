@@ -44,12 +44,9 @@ const Footer = () => {
                       </a>
                     </li>
                     <li>
-                      <a
-                        href="https://www.facebyoutubeook.com/"
-                        target="_blank"
-                      >
-                        <i className="bx bxl-youtube"></i>
-                      </a>
+                       <a href="https://wa.me/+905358765323" target="_blank">
+                        <i className="bx bxl-whatsapp"></i>
+                       </a>
                     </li>
                     <li>
                       <a href="https://www.instagram.com/" target="_blank">
@@ -93,16 +90,7 @@ const Footer = () => {
                 <h3>Çalışma Saatlerimiz</h3>
                 <ul>
                   <li>
-                    <span>Pzt-Cum:</span>
-                    <span className="right">09:00 - 17:00</span>
-                  </li>
-                  <li>
-                    <span>Cmt:</span>
-                    <span className="right">09:00 - 15:00</span>
-                  </li>
-                  <li>
-                    <span>Paz:</span>
-                    <span className="right">Kapalı</span>
+                  <span>09:00 - 17:00</span>
                   </li>
                 </ul>
               </div>
@@ -121,14 +109,14 @@ const Footer = () => {
                     <a href="tel:+822456974">
                       <i className="bx bx-phone-call"></i>
                       <span>Telefon:</span>
-                       +012-345-67-89
+                      +90 535 876 53 23
                     </a>
                   </li>
                   <li>
                     <a href="mailto:hello@corf.com">
                       <i className="bx bx-envelope"></i>
                       <span>Email:</span>
-                      iletişim@info.com
+                      info@aeegitim.com.tr
                     </a>
                   </li>
                   <li>

@@ -3,7 +3,7 @@ import Navbar from "../components/_App/Navbar";
 import PageBanner from "../components/Common/PageBanner";
 import Footer from "../components/_App/Footer";
 import AboutUsCourses from "../components/AboutUs/AboutUsCourses";
-import FunFactStyleOne from "../components/Common/FunFactStyleOne";
+import ContactForm from "../components/ContactUs/ContactForm";
 import AboutUsText from "../components/AboutUs/AboutUsText";
 
 const About = () => {
@@ -23,7 +23,7 @@ const About = () => {
 
       <AboutUsCourses />
 
-      <FunFactStyleOne />
+      <ContactForm />
 
 
       <Footer />
