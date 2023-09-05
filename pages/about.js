@@ -21,46 +21,31 @@ const About = () => {
 
       <AboutUsText />
 
-      <DoctorsStyleOne />
 
       <div className="about-area four abouts-six">
         <div className="container-fluid">
           <div className="row">
             <div className="col-lg-6">
               <div className="about-content ml-auto">
-                <span className="top-title">About Us</span>
-                <h2>Free Medical Camp Importance & Objectives</h2>
+                <h2>Kurslarımız</h2>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
-                  maecenas accumsan lacus vel facilisis.
+                Firmamız, sağlık eğitimi alanında geniş bir yelpazede kurslar sunmaktadır.
+                 Bu kurslar, öğrencilere alanlarında uzmanlaşma ve mesleki gelişim fırsatı sunar.
+                  İşte sunduğumuz kurslar:
                 </p>
 
                 <ul>
                   <li>
                     <i className="flaticon-tick"></i>
-                    Free Registration of Deserving Cases for Surgeries
+                    Porselen Laminate Eğitimi
                   </li>
                   <li>
                     <i className="flaticon-tick"></i>
-                    Free Hepatitis B & C Screening Test
+                    İmplant Destekli Protezler Eğitimi
                   </li>
                   <li>
                     <i className="flaticon-tick"></i>
-                    Free Consultation & Medicine
-                  </li>
-                  <li>
-                    <i className="flaticon-tick"></i>
-                    Free Blood Pressure Test
-                  </li>
-                  <li>
-                    <i className="flaticon-tick"></i>
-                    Free Diabetes Test
-                  </li>
-                  <li>
-                    <i className="flaticon-tick"></i>
-                    Childbirth
+                    Temporodibular Eğitimi
                   </li>
                 </ul>
               </div>
