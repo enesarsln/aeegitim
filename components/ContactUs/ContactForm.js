@@ -66,7 +66,7 @@ const ContactForm = () => {
                       <input
                         type="text"
                         name="name"
-                        placeholder="Your Name"
+                        placeholder="Adınız ve Soyadınız..."
                         className="form-control"
                         value={contact.name}
                         onChange={handleChange}
@@ -81,7 +81,7 @@ const ContactForm = () => {
                       <input
                         type="text"
                         name="email"
-                        placeholder="Your Email"
+                        placeholder="Email adresiniz..."
                         className="form-control"
                         value={contact.email}
                         onChange={handleChange}
@@ -96,7 +96,7 @@ const ContactForm = () => {
                       <input
                         type="text"
                         name="number"
-                        placeholder="Phone Number"
+                        placeholder="Telefon numaranız..."
                         className="form-control"
                         value={contact.number}
                         onChange={handleChange}
