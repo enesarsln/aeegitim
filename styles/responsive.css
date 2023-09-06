@@ -1032,7 +1032,7 @@
 
 .course-one-middle .course-one-middel-box {
   width: 100%;
-  min-height: 60vh;
+  min-height: 50vh;
 }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
