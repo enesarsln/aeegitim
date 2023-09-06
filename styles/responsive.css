@@ -948,6 +948,12 @@
   .blog-right-sidebar {
     padding-left: 0;
   }
+  .about-us-main-text .about-us-text{
+    width: 100%;
+  }
+  .about-us-main-text .about-us-text p{
+    font-size: .8rem;
+  }
   .contact-content-container{
     flex-direction: column;
   }
@@ -970,7 +976,7 @@
   }
   .office-content-container .office-content-box{
     height: auto;
-    padding: 30px 0px;
+    padding: 30px 10px;
   }
   .office-content-box .office-content-img{
     display: none;

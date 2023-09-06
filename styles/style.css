@@ -6035,7 +6035,7 @@ Page-navigation Area Style*/
 /* === Office === */
 
 .office-content-container {
-  width: 80%;
+  width: 85%;
   height: auto;
   margin: 5vh auto;
 }
@@ -6046,25 +6046,34 @@ Page-navigation Area Style*/
   height: 35vh;
   margin: 5vh auto;
   box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
-  border-radius: 10px;
   background: linear-gradient(135deg, #fff, #fff, #f5ffff, #f5ffff, #fff, #fff);
   animation: about-bg-anm 4s infinite linear;
   background-size: 200% 200%;
+  padding: 10px 20px;
+}
+
+.office-content-container .office-content-box.even {
+  flex-direction: row-reverse;
+}
+
+.office-content-container .office-content-box.odd {
+  flex-direction: row;
 }
 
 .office-content-box .office-content-img{
-  width: 40%;
-  height: 100%;
+  width: 40vh;
+  height: 90%;
+  margin: auto;
 }
 
 .office-content-img img{
   width: 100%;
   height: 100%;
-  border-radius: 10px 0px 0px 10px;
+  border-radius: 10px;
 }
 
 .office-content-box .office-content-text{
-  width: 60%;
+  width: 70%;
   height: 100%;
   display: flex;
   align-items: center;
