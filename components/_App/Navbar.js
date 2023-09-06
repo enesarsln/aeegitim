@@ -83,7 +83,7 @@ const Navbar = () => {
 
                       <li className="nav-item">
                         <Link
-                          href="#"
+                          href="/"
                           onClick={(e) => e.preventDefault()}
                           className="nav-link"
                         >
@@ -93,9 +93,9 @@ const Navbar = () => {
                         <ul className="dropdown-menu">
                           <li className="nav-item">
                             <Link
-                              href="/"
+                              href="/course-1/"
                               className={`nav-link ${
-                                currentPath == "//" && "active"
+                                currentPath == "/course-1/" && "active"
                               }`}
                             >
                               Porselen Laminate

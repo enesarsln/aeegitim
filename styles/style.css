@@ -6084,5 +6084,55 @@ Page-navigation Area Style*/
   width: 90%;
   margin: auto;
   line-height: 2.6em;
-  font-size: .9rem;
+  font-size: 1rem;
+}
+
+.course-one-top{
+  width: 100%;
+  height: auto;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.course-one-top .course-one-title{
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.course-one-title h3{
+  color: #0cb8b6;
+}
+
+.course-one-top .course-one-top-container{
+  width: 80%;
+  height: auto;
+  padding: 10px;
+  display: flex;
+  box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+}
+
+.course-one-top-container .course-one-top-box {
+  width: 50%;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 5px;
+}
+
+.course-one-top-box img{
+  height: 80%;
+  margin: auto;
+  width: 80%;
+  border-radius: 10px;
+}
+
+.course-one-top-box p{
+  text-align: left;
+  font-size: 1rem;
+  line-height: 2.4rem;
 }
