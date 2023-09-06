@@ -5953,10 +5953,10 @@ Page-navigation Area Style*/
   align-items: center;
   justify-content: center;
   margin: 10vh auto;
-  background: linear-gradient(135deg, #fff, #fff, #e1fafa, #e1fafa, #fff, #fff);
-  border-radius: 2em;
+  background: linear-gradient(135deg, #fff, #fff, #f5ffff, #f5ffff, #fff, #fff);
   animation: about-bg-anm 4s infinite linear;
   background-size: 200% 200%;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 @keyframes about-bg-anm {
