@@ -10,19 +10,19 @@ const ContactContent = () => {
             <div className="contact-content-info">
             <ul>
                 <li>
-                    <span>Adres:</span>
+                    <span><i className="bx bx-location-plus"></i> Adres:</span>
                     <p>Kızılırmak mahallesi Dumlupınar Bulvarı No:9/A ofis no:248 kat:7 YDA Center Çankaya Ankara</p>
                 </li>
                 <li>
-                    <span>Telefon:</span>
+                    <span> <i className="bx bx-phone-call"></i> Telefon:</span>
                     <p>+90 535 876 53 23</p>
                 </li>
                 <li>
-                    <span>Email:</span>
+                    <span><i className="bx bx-envelope"></i> Email:</span>
                     <p>info@aeegitim.com.tr</p>
                 </li>
                 <li>
-                    <span>Çalışma Saatleri:</span>
+                    <span><i className="flaticon-clock"></i> Çalışma Saatleri:</span>
                     <p>09:00 - 17:00</p>
                 </li>
             </ul>
