@@ -12,6 +12,7 @@ const CourseOneTop = () => {
                  <img src="/img/work1.jpg" alt="Image" />
                 </div>
                 <div className="course-one-top-box">
+                <span className="top-title">Beceri ve Bilgi Dolu İki Günlük Macera</span>
                     <p>Porselen laminate veneer öğrenmek için heyecan verici ve kapsamlı iki günlük kursumuza katılın!
                          Bu kurs, yeni veya daha az deneyimli diş hekimleri için tasarlanmış olup, 
                          porselen laminate porselenlerin uygulanması alanındaki beceri ve bilginizi

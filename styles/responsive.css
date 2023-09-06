@@ -1,3 +1,25 @@
+@media only screen and (max-width: 574px) {
+  .course-one-bottom .course-one-bottom-content{
+    flex-direction: column;
+  }
+  .course-one-bottom-box .top-title{
+    width: 100%;
+    text-align: center;
+    font-size: .9rem;
+  }
+  
+  .course-one-bottom-box ul li {
+    list-style: none;
+    line-height: 2.4rem;
+    font-size: .8rem;
+  }
+  
+  .course-one-bottom-box ul li .flaticon-tick{
+    color: #0cb8b6;
+    font-size: .9rem;
+  }
+} 
+
 @media only screen and (max-width: 767px) {
   .ptb-100 {
     padding-top: 50px;
@@ -987,6 +1009,31 @@
   .office-content-box .office-content-text p{
     font-size: .7rem;
   }
+  
+  .course-one-top .course-one-top-container{
+    flex-direction: column;
+    width: 100%;
+    padding: 30px 0px 20px 0px;
+    margin-top: 0px;
+  }
+  .course-one-top-container .course-one-top-box {
+    width: 100%;
+    padding: 10px;
+    min-height: 10vh;
+  }
+  .course-one-top-container .course-one-top-box:nth-child(1){
+    display: none;
+  }
+
+
+.course-one-middle {
+  flex-direction: column;
+}
+
+.course-one-middle .course-one-middel-box {
+  width: 100%;
+  min-height: 60vh;
+}
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .header-area .top-header-area .header-content-right {
@@ -2153,6 +2200,45 @@
   }
   .office-content-text p{
     font-size: .8rem;
+  }
+  .course-one-top-box p{
+    text-align: left;
+    font-size: .8rem;
+    line-height: 1.7rem;
+  }
+  .course-one-top-box img{
+    height: 80%;
+    width: 80%;
+  }
+  .course-one-middel-text p {
+    line-height: 1.7rem;
+    font-size: .8rem;
+  }
+  .course-one-middel-img img {
+    width: 200px;
+    height: 150px;
+    margin: 20px;
+    border-radius: 10px;
+  }
+  .course-one-middle-p p{
+    font-size: .7rem;
+  }
+  .course-one-middle-p span{
+    font-size: .8rem;
+    color: #0b7575;
+    font-weight: 600;
+  }
+  .course-one-bottom-box ul li {
+    line-height: 1.7rem;
+    font-size: .7rem;
+  }
+  
+  .course-one-bottom-box ul li .flaticon-tick{
+    color: #0cb8b6;
+    font-size: .8rem;
+  }
+  .course-one-bottom-box .top-title{
+    font-size: .9rem;
   }
 }
 @media only screen and (min-width: 1400px) {
