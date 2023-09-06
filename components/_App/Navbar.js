@@ -104,9 +104,9 @@ const Navbar = () => {
 
                           <li className="nav-item">
                             <Link
-                              href="/"
+                              href="/course-2/"
                               className={`nav-link ${
-                                currentPath == "//" && "active"
+                                currentPath == "/course-2/" && "active"
                               }`}
                             >
                               İmplant Destekli Protezler
