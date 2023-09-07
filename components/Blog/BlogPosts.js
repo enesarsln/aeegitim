@@ -30,22 +30,20 @@ const BlogPosts = () => {
         },
     ]
 
-    return(
-        <>
+    return (
         <div className="blog-content">
             {postContext.map((post, key) => (
                 <PostCard img={post.img} title={post.title} text={post.text} index={key} key={key} />
             ))}
         </div>
-        </>
     )
 }
 
 export default BlogPosts
 
-const PostCard = ({img, title, text, index}) => {
+const PostCard = ({ img, title, text, index }) => {
     const isEvenIndex = index % 2 === 0;
-    return(
+    return (
         <div className={`blog-post-card ${isEvenIndex ? "even" : "odd"}`}>
             <div className="post-card-img">
                 <img src={img} />

@@ -4,10 +4,8 @@ import Link from "next/link";
 import TopHeader from "./TopHeader";
 
 const Navbar = () => {
-  // Add active class
   const [currentPath, setCurrentPath] = useState("");
   const router = useRouter();
-  // console.log(router.asPath)
 
   useEffect(() => {
     setCurrentPath(router.asPath);
@@ -48,7 +46,7 @@ const Navbar = () => {
               <nav className="navbar navbar-expand-md navbar-light">
                 <div className="container">
                   <Link href="/" className="navbar-brand">
-                    <img src="/img/logo.png" alt="logo" />
+                    <img src="/img/ae-text.png" alt="logo" />
                   </Link>
 
                   <button

@@ -4,13 +4,13 @@ import PageBanner from "../components/Common/PageBanner";
 import OfficeContent from "../components/Office/OfficeContent";
 import Footer from "../components/_App/Footer";
 
-const Office = () =>{
-    return(
-        <>
+const Office = () => {
+  return (
+    <>
 
-        <Navbar />
+      <Navbar />
 
-        <PageBanner
+      <PageBanner
         pageTitle="Ofis Tanıtım"
         homePageUrl="/"
         homePageText="Anasayfa"
@@ -18,12 +18,12 @@ const Office = () =>{
         imgClass="bg-1"
       />
 
-        <OfficeContent />
+      <OfficeContent />
 
-        <Footer />
+      <Footer />
 
-          </>
-    )
+    </>
+  )
 }
 
 export default Office

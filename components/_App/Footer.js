@@ -16,8 +16,8 @@ const Footer = () => {
                 data-aos-delay="100"
                 data-aos-duration="1200"
               >
-                <Link href="/">
-                  <img src="/img/logo.png" alt="Image" />
+                <Link href="/" style={{ maxWidth: 180 }}>
+                  <img src="/img/ae-text.png" alt="Image" />
                 </Link>
 
                 <p>
