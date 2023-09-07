@@ -6068,11 +6068,14 @@ Page-navigation Area Style*/
   height: 90%;
   margin: auto;
   padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .office-content-img img{
-  width: 100%;
-  height: 100%;
+  width: 80%;
+  height: 80%;
   border-radius: 10px;
 }
 
@@ -6112,11 +6115,14 @@ Page-navigation Area Style*/
 }
 
 .course-one-top .course-one-top-container{
-  width: 80%;
+  width: 95%;
   height: auto;
   padding: 10px;
   display: flex;
   margin-top: 20px;
+  background: linear-gradient(135deg, #fff, #fff, #f5ffff, #f5ffff, #fff, #fff);
+  animation: about-bg-anm 4s infinite linear;
+  background-size: 200% 200%;
 }
 
 .course-one-top-container .course-one-top-box {
@@ -6130,9 +6136,9 @@ Page-navigation Area Style*/
 }
 
 .course-one-top-box img{
-  height: 70%;
+  height: 200px;
   margin: auto;
-  width: 70%;
+  width: 350px;
   border-radius: 10px;
 }
 
@@ -6338,4 +6344,80 @@ Page-navigation Area Style*/
   width: 320px;
   height: 250px;
   border-radius: 10px;
+}
+
+/* ===CourseThree=== */
+
+.course-three-top{
+  width: 100%;
+  height: auto;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.course-three-top h3{
+  color: #0cb8b6;
+  font-size: 1.1rem;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+.course-three-top .course-three-top-content{
+  width: 95%;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px; */
+  padding: 10px;
+  margin-top: 30px;
+  background: linear-gradient(135deg, #fff, #fff, #f5ffff, #f5ffff, #fff, #fff);
+  animation: about-bg-anm 4s infinite linear;
+  background-size: 200% 200%;
+}
+
+.course-three-top-content .course-three-top-text{
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.course-three-top-text span{
+  text-align: left;
+  width: 100%;
+}
+
+.course-three-top-text p{
+  width: 100%;
+  font-size: .9rem;
+  line-height: 2.4rem;
+}
+
+/* ==Course Three Middle== */
+
+.course-three-middle-p {
+  width: 85%;
+  margin: auto;
+  text-align: center;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+  background-color: #D6FBFD;
+}
+
+.course-three-middle-p p{
+  text-align: center;
+  font-weight: 700;
+  font-size: 1rem;
+  width: 80%;
+  margin: auto;
+}
+.course-three-middle-p span{
+  font-size: 1.1rem;
+  color: #0b7575;
+  font-weight: 600;
 }

@@ -115,9 +115,9 @@ const Navbar = () => {
 
                           <li className="nav-item">
                             <Link
-                              href="/"
+                              href="/course-3/"
                               className={`nav-link ${
-                                currentPath == "//" && "active"
+                                currentPath == "/course-3/" && "active"
                               }`}
                             >
                               Temporodibular

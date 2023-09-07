@@ -996,8 +996,8 @@
     justify-content: center;
   }
   .office-content-img img{
-    width: 80%;
-    height: 80%;
+    width: 75%;
+    height: 75%;
   }
   .office-content-box .office-content-text{
     width: 100%;
@@ -1077,6 +1077,31 @@
   color: #0cb8b6;
   font-size: .9rem;
 }
+.course-three-top{
+  padding: 15px;
+}
+
+.course-three-top h3{
+  font-size: .8rem;
+}
+.course-three-top-content .course-three-top-text{
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.course-three-top-text p{
+  font-size: .7rem;
+  line-height: 1.7rem;
+}
+.course-three-middle-p p{
+  font-size: .7rem;
+  width: 100%;
+}
+.course-three-middle-p span{
+  font-size: .9rem;
+}
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .header-area .top-header-area .header-content-right {
@@ -1140,6 +1165,10 @@
   }
   .second-facility-area.eight .container {
     max-width: 540px;
+  }
+  .office-content-img img{
+    width: 50%;
+    height: 50%;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
