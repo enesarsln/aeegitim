@@ -6,6 +6,10 @@ const CourseTwoMiddle = () => {
         <div className="course-two-middle">
 
             <div className="course-two-middle-box">
+
+            <div className="course-two-middle-img">
+                <img src="/img/work1.jpg" />
+              </div>
               <div className="course-two-middle-text">
                 <span className="top-title">Kurs Hakkında</span>
                 <p>Kurs boyunca tüm katılımcılara yeterli ekipman sağlanacak ve uygulamalar 
@@ -20,9 +24,7 @@ const CourseTwoMiddle = () => {
 
                 </p>
               </div>
-              <div className="course-two-middle-img">
-                <img src="/img/work1.jpg" />
-              </div>
+
             </div>
 
         </div>

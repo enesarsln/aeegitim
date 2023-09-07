@@ -2553,14 +2553,17 @@ Page Title Area Style
 =====================================================*/
 .page-title-area {
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   overflow: hidden;
-  padding-top: 240px;
+  padding-top: 200px;
   padding-bottom: 150px;
   text-align: center;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100%;
+  height: 30vh;
   z-index: 1;
 }
 .page-title-area::before {
@@ -6210,48 +6213,48 @@ Page-navigation Area Style*/
 
 /* === COURSE ONE BOTTOM === */
 
-.course-one-bottom {
+.course-program {
   width: 95%;
   margin: 40px auto;
 }
 
-.course-one-bottom .course-one-bottom-title{
+.course-program .course-program-title{
   width: 100%;
   text-align: center;
 }
 
-.course-one-bottom .course-one-bottom-content{
+.course-program .course-program-content{
   width: 100%;
   min-height: 25vh;
   box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
   padding: 10px;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
 }
 
-.course-one-bottom-content .course-one-bottom-box{
+.course-program-content .course-program-box{
   margin: 0px 20px;
   text-align: left;
 }
 
-.course-one-bottom-box .top-title{
+.course-program-box .top-title{
   width: 100%;
   text-align: center;
   font-size: 1rem;
 }
 
-.course-one-bottom-box ul li {
+.course-program-box ul li {
   list-style: none;
   line-height: 2.4rem;
   font-size: .9rem;
 }
 
-.course-one-bottom-box ul li .flaticon-tick{
+.course-program-box ul li .flaticon-tick{
   color: #0cb8b6;
   font-size: 1rem;
 }
 
-.course-one-bottom-box ul li .course-time{
+.course-program-box ul li .course-time{
   color: #000;
 }
 
@@ -6270,6 +6273,7 @@ Page-navigation Area Style*/
 
 .course-two-top h3{
   color: #0cb8b6;
+  font-size: 1.2rem;
 }
 
 .course-two-top .course-two-text{

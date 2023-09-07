@@ -1,14 +1,14 @@
 import React from "react";
 
-const CourseOneBottom = () => {
+const CourseProgramOne = () => {
     return(
         <>
-        <div className="course-one-bottom">
-            <div className="course-one-bottom-title">
+        <div className="course-program">
+            <div className="course-program-title">
                 <span className="top-title">Eğitim Programı</span>
             </div>
-            <div className="course-one-bottom-content">
-                <div className="course-one-bottom-box">
+            <div className="course-program-content">
+                <div className="course-program-box">
                 <span className="top-title">1. Gün</span>
                 <ul>
                     <li><i className="flaticon-tick"></i> <span className="course-time">09:30</span> - Porselen Laminate Veneer Endikasyonları ve alternatif tedavi seçenekleri</li>
@@ -18,7 +18,7 @@ const CourseOneBottom = () => {
                     <li><i className="flaticon-tick"></i> <span className="course-time">15:30 </span> - Dijital ölçü ve tasarım</li>
                 </ul>
                 </div>
-                <div className="course-one-bottom-box">
+                <div className="course-program-box">
                 <span className="top-title">2. Gün</span>
                 <ul>
                     <li><i className="flaticon-tick"></i> <span className="course-time">09:30</span> - Vakalar eşliğinde Porselen materyal seçim</li>
@@ -35,4 +35,4 @@ const CourseOneBottom = () => {
     )
 }
 
-export default CourseOneBottom
+export default CourseProgramOne

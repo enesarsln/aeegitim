@@ -1,24 +1,6 @@
-@media only screen and (max-width: 574px) {
-  .course-one-bottom .course-one-bottom-content{
-    flex-direction: column;
-  }
-  .course-one-bottom-box .top-title{
-    width: 100%;
-    text-align: center;
-    font-size: .9rem;
-  }
+/* @media only screen and (max-width: 574px) {
   
-  .course-one-bottom-box ul li {
-    list-style: none;
-    line-height: 2.4rem;
-    font-size: .8rem;
-  }
-  
-  .course-one-bottom-box ul li .flaticon-tick{
-    color: #0cb8b6;
-    font-size: .9rem;
-  }
-} 
+}  */
 
 @media only screen and (max-width: 767px) {
   .ptb-100 {
@@ -1000,8 +982,22 @@
     height: auto;
     padding: 30px 10px;
   }
+  .office-content-container .office-content-box.even {
+    flex-direction: column;
+  }
+  
+  .office-content-container .office-content-box.odd {
+    flex-direction: column
+  }
   .office-content-box .office-content-img{
-    display: none;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+  .office-content-img img{
+    width: 80%;
+    height: 80%;
   }
   .office-content-box .office-content-text{
     width: 100%;
@@ -1033,6 +1029,53 @@
 .course-one-middle .course-one-middel-box {
   width: 100%;
   min-height: 50vh;
+}
+.course-two-top .course-two-text{
+  width: 95%;
+  margin: 10px auto;
+}
+.course-two-text p{
+  font-size: .7rem;
+  line-height: 1.7rem;
+}
+.course-two-middle .course-two-middle-box{
+  flex-direction: column;
+}
+.course-two-middle-box .course-two-middle-text{
+  width: 100%;
+}
+.course-two-middle-box .course-two-middle-img{
+  width: 100%;
+}
+.course-two-middle-img img{
+  width: 250px;
+  height: 180px;
+  margin-bottom: 10px;
+}
+.course-two-middle-text p {
+  font-size: .7rem;
+}
+.course-two-top h3{
+  font-size: .9rem;
+}
+.course-program .course-program-content{
+  flex-direction: column;
+}
+.course-program-box .top-title{
+  width: 100%;
+  text-align: center;
+  font-size: .9rem;
+}
+
+.course-program-box ul li {
+  list-style: none;
+  line-height: 2.4rem;
+  font-size: .7rem;
+}
+
+.course-program-box ul li .flaticon-tick{
+  color: #0cb8b6;
+  font-size: .9rem;
 }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {

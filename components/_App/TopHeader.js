@@ -10,7 +10,7 @@ const TopHeader = () => {
               <ul className="header-content-left">
                 <li>
                   <i className="bx bx-time"></i>
-                   09:00-17:00
+                  09:00-17:00
                 </li>
                 <li>
                   <a href="tel:+822456974">

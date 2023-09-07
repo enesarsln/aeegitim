@@ -3,7 +3,7 @@ import Navbar from "../components/_App/Navbar";
 import PageBanner from "../components/Common/PageBanner";
 import CourseOneTop from "../components/Courses/CourseOne/CourseOneTop";
 import CourseOneMiddle from "../components/Courses/CourseOne/CourseOneMiddle";
-import CourseOneBottom from "../components/Courses/CourseOne/CourseOneBottom";
+import CourseProgramOne from "../components/Courses/CourseOne/CourseProgramOne";
 import Footer from "../components/_App/Footer";
 
 const CourseOne = () => {
@@ -23,7 +23,7 @@ const CourseOne = () => {
 
       <CourseOneMiddle />
 
-      <CourseOneBottom />
+      <CourseProgramOne />
 
       <Footer />
         </>
