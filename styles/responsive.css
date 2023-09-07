@@ -1,6 +1,8 @@
-/* @media only screen and (max-width: 574px) {
-  
-}  */
+@media only screen and (max-width: 574px) {
+  .blog-content .blog-post-card{
+    width: 95% !important;
+  }
+} 
 
 @media only screen and (max-width: 767px) {
   .ptb-100 {
@@ -1101,6 +1103,59 @@
 }
 .course-three-middle-p span{
   font-size: .9rem;
+}
+.blog-top{
+  padding: 20px;
+}
+.blog-page-title h3{
+  font-size: .8rem;
+}
+.blog-top .blog-top-text{
+  width: 100%;
+}
+.blog-top-text p{
+  width: 95%;
+  font-size: .8rem;
+  line-height: 1.7rem;
+}
+.blog-content .blog-post-card{
+  flex-direction: column;
+  width: 60%;
+}
+.blog-post-card .post-card-img{
+  width: 100%;
+}
+.blog-post-card .post-card-text{
+  width: 100%;
+}
+.post-card-title h3{
+  font-size: .8rem;
+}
+.post-card-p p{
+  font-size: .7rem;
+  line-height: 1.7rem;
+}
+.blog-content .blog-post-card.even {
+  flex-direction: column;
+}
+.blog-content .blog-post-card.odd {
+  flex-direction: column
+}
+.post-card-img .post-circle{
+  display: none;
+}
+.post-card-img img{
+  border-radius: 10px;
+}
+.blog-page-bottom{
+  width: 90%;
+}
+.blog-bottom-text p{
+  font-size: .7rem;
+  line-height: 1.7rem;
+}
+.blog-bottom-text span{
+  font-size: .8rem;
 }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
@@ -2311,6 +2366,17 @@
   }
   .course-one-bottom-box .top-title{
     font-size: .9rem;
+  }
+  .post-card-img img{
+    width: 250px;
+    height: 250px;
+  }
+  .post-card-title h3{
+    font-size: .9rem;
+  }
+  .post-card-p p{
+    font-size: .8rem;
+    line-height: 1.7rem;
   }
 }
 @media only screen and (min-width: 1400px) {

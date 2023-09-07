@@ -150,9 +150,9 @@ const Navbar = () => {
 
                       <li className="nav-item">
                         <Link
-                          href="/"
+                          href="/blog/"
                           className={`nav-link ${
-                            currentPath == "//" && "active"
+                            currentPath == "/blog/" && "active"
                           }`}
                         >
                           Blog
