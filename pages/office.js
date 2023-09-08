@@ -1,30 +1,29 @@
 import React from "react";
 import Navbar from "../components/_App/Navbar";
 import PageBanner from "../components/Common/PageBanner";
-import ContactContent from "../components/ContactUs/ContactContent";
-import ContactForm from "../components/ContactUs/ContactForm";
+import OfficeContent from "../components/Office/OfficeContent";
 import Footer from "../components/_App/Footer";
 
-const Contact = () => {
+const Office = () => {
   return (
     <>
+
       <Navbar />
 
       <PageBanner
-        pageTitle="İletişim"
+        pageTitle="Ofis Tanıtım"
         homePageUrl="/"
         homePageText="Anasayfa"
-        activePageText="İletişim"
+        activePageText="Ofis Tanıtım"
         imgClass="bg-1"
       />
-      
-      <ContactContent />
 
-     <ContactForm />
+      <OfficeContent />
 
       <Footer />
-    </>
-  );
-};
 
-export default Contact;
+    </>
+  )
+}
+
+export default Office

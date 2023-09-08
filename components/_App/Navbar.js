@@ -4,10 +4,8 @@ import Link from "next/link";
 import TopHeader from "./TopHeader";
 
 const Navbar = () => {
-  // Add active class
   const [currentPath, setCurrentPath] = useState("");
   const router = useRouter();
-  // console.log(router.asPath)
 
   useEffect(() => {
     setCurrentPath(router.asPath);
@@ -48,7 +46,7 @@ const Navbar = () => {
               <nav className="navbar navbar-expand-md navbar-light">
                 <div className="container">
                   <Link href="/" className="navbar-brand">
-                    <img src="/img/logo.png" alt="logo" />
+                    <img src="/img/ae-text.png" alt="logo" />
                   </Link>
 
                   <button
@@ -68,11 +66,12 @@ const Navbar = () => {
 
                   <div className={classOne} id="navbarSupportedContent">
                     <ul className="navbar-nav m-auto">
-                      <li className="nav-item">
+                    <li className="nav-item">
                         <Link
-                          href="#"
-                          onClick={(e) => e.preventDefault()}
-                          className="nav-link"
+                          href="/"
+                          className={`nav-link ${
+                            currentPath == "//" && "active"
+                          }`}
                         >
                           Anasayfa
                         </Link>
@@ -82,7 +81,7 @@ const Navbar = () => {
 
                       <li className="nav-item">
                         <Link
-                          href="#"
+                          href="/"
                           onClick={(e) => e.preventDefault()}
                           className="nav-link"
                         >
@@ -92,9 +91,9 @@ const Navbar = () => {
                         <ul className="dropdown-menu">
                           <li className="nav-item">
                             <Link
-                              href="/doctors/"
+                              href="/course-1/"
                               className={`nav-link ${
-                                currentPath == "/doctors/" && "active"
+                                currentPath == "/course-1/" && "active"
                               }`}
                             >
                               Porselen Laminate
@@ -103,9 +102,9 @@ const Navbar = () => {
 
                           <li className="nav-item">
                             <Link
-                              href="/privacy-policy/"
+                              href="/course-2/"
                               className={`nav-link ${
-                                currentPath == "/privacy-policy/" && "active"
+                                currentPath == "/course-2/" && "active"
                               }`}
                             >
                               İmplant Destekli Protezler
@@ -114,9 +113,9 @@ const Navbar = () => {
 
                           <li className="nav-item">
                             <Link
-                              href="/privacy-policy/"
+                              href="/course-3/"
                               className={`nav-link ${
-                                currentPath == "/privacy-policy/" && "active"
+                                currentPath == "/course-3/" && "active"
                               }`}
                             >
                               Temporodibular
@@ -138,9 +137,9 @@ const Navbar = () => {
 
                       <li className="nav-item">
                         <Link
-                          href="/about/"
+                          href="/office/"
                           className={`nav-link ${
-                            currentPath == "/about/" && "active"
+                            currentPath == "//" && "active"
                           }`}
                         >
                           Ofis Tanıtım
@@ -149,9 +148,9 @@ const Navbar = () => {
 
                       <li className="nav-item">
                         <Link
-                          href="/about/"
+                          href="/blog/"
                           className={`nav-link ${
-                            currentPath == "/about/" && "active"
+                            currentPath == "/blog/" && "active"
                           }`}
                         >
                           Blog

@@ -1,9 +1,7 @@
 import React from "react";
 import Navbar from "../components/_App/Navbar";
 import PageBanner from "../components/Common/PageBanner";
-import Subscribe from "../components/Common/Subscribe";
 import Footer from "../components/_App/Footer";
-import Link from "next/link";
 
 const SignIn = () => {
   return (
@@ -97,8 +95,6 @@ const SignIn = () => {
           </div>
         </div>
       </div>
-
-      <Subscribe />
 
       <Footer />
     </>
