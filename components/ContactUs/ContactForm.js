@@ -113,7 +113,7 @@ const ContactForm = () => {
                       <option value="0">Bir konu seçin</option>
                       <option value="1">Porselen Laminate</option>
                       <option value="2">İmplant Destekli Protezler</option>
-                      <option value="3">Temporodibular</option>
+                      <option value="3">Temporomandibular</option>
                       <option value="4">Eğitim İmkanları</option>
                       <option value="5">Diplomalar</option>
                       <option value="6">Fiyatlar</option>

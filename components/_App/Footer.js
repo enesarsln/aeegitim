@@ -74,7 +74,7 @@ const Footer = () => {
                     <Link href="#">İmplant Destekli Protezler</Link>
                   </li>
                   <li>
-                    <Link href="#">Temporodibular</Link>
+                    <Link href="#">Temporomandibular</Link>
                   </li>
                 </ul>
               </div>

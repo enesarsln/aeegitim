@@ -26,7 +26,7 @@ const AboutUsCourses = () => {
                   </li>
                   <li>
                     <i className="flaticon-tick"></i>
-                    Temporodibular Eğitimi
+                    Temporomandibular Eğitimi
                   </li>
                 </ul>
               </div>

@@ -33,9 +33,9 @@ const CourseThreeMiddle = () => {
             </div>
             <div className="course-three-middle-p">
                 <span className="top-title">Uzmanlığınızı Genişletmek İçin İşte Fırsat!</span>
-                <p>Canlı ve destekleyici bir atmosferde yaşayacağınız bu heyecan verici 
-                 öğrenme ve mesleki gelişim yolculuğunda bize katılın.
-                 Uzmanlığınızı genişletme ve kariyerinizi geliştirme fırsatını kaçırmayın!
+                <p>Canlı ve destekleyici bir atmosferde yaşayacağınız bu heyecan verici
+                    öğrenme ve mesleki gelişim yolculuğunda bize katılın.
+                    Uzmanlığınızı genişletme ve kariyerinizi geliştirme fırsatını kaçırmayın!
                 </p>
             </div>
         </>

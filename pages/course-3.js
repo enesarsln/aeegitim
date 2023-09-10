@@ -13,10 +13,10 @@ const CourseThree = () => {
         <Navbar />
 
         <PageBanner
-        pageTitle="Temporodibular"
+        pageTitle="Temporomandibular"
         homePageUrl="/"
         homePageText="Anasayfa"
-        activePageText="Temporodibular"
+        activePageText="Temporomandibular"
         imgClass="bg-1"
       />
 

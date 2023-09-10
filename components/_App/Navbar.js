@@ -66,12 +66,11 @@ const Navbar = () => {
 
                   <div className={classOne} id="navbarSupportedContent">
                     <ul className="navbar-nav m-auto">
-                    <li className="nav-item">
+                      <li className="nav-item">
                         <Link
                           href="/"
-                          className={`nav-link ${
-                            currentPath == "//" && "active"
-                          }`}
+                          className={`nav-link ${currentPath == "//" && "active"
+                            }`}
                         >
                           Anasayfa
                         </Link>
@@ -92,9 +91,8 @@ const Navbar = () => {
                           <li className="nav-item">
                             <Link
                               href="/course-1/"
-                              className={`nav-link ${
-                                currentPath == "/course-1/" && "active"
-                              }`}
+                              className={`nav-link ${currentPath == "/course-1/" && "active"
+                                }`}
                             >
                               Porselen Laminate
                             </Link>
@@ -103,9 +101,8 @@ const Navbar = () => {
                           <li className="nav-item">
                             <Link
                               href="/course-2/"
-                              className={`nav-link ${
-                                currentPath == "/course-2/" && "active"
-                              }`}
+                              className={`nav-link ${currentPath == "/course-2/" && "active"
+                                }`}
                             >
                               İmplant Destekli Protezler
                             </Link>
@@ -114,11 +111,10 @@ const Navbar = () => {
                           <li className="nav-item">
                             <Link
                               href="/course-3/"
-                              className={`nav-link ${
-                                currentPath == "/course-3/" && "active"
-                              }`}
+                              className={`nav-link ${currentPath == "/course-3/" && "active"
+                                }`}
                             >
-                              Temporodibular
+                              Temporomandibular
                             </Link>
                           </li>
                         </ul>
@@ -127,9 +123,8 @@ const Navbar = () => {
                       <li className="nav-item">
                         <Link
                           href="/about/"
-                          className={`nav-link ${
-                            currentPath == "/about/" && "active"
-                          }`}
+                          className={`nav-link ${currentPath == "/about/" && "active"
+                            }`}
                         >
                           Özgeçmiş
                         </Link>
@@ -138,9 +133,8 @@ const Navbar = () => {
                       <li className="nav-item">
                         <Link
                           href="/office/"
-                          className={`nav-link ${
-                            currentPath == "//" && "active"
-                          }`}
+                          className={`nav-link ${currentPath == "//" && "active"
+                            }`}
                         >
                           Ofis Tanıtım
                         </Link>
@@ -149,9 +143,8 @@ const Navbar = () => {
                       <li className="nav-item">
                         <Link
                           href="/blog/"
-                          className={`nav-link ${
-                            currentPath == "/blog/" && "active"
-                          }`}
+                          className={`nav-link ${currentPath == "/blog/" && "active"
+                            }`}
                         >
                           Blog
                         </Link>
@@ -161,22 +154,13 @@ const Navbar = () => {
                       <li className="nav-item">
                         <Link
                           href="/contact/"
-                          className={`nav-link ${
-                            currentPath == "/contact/" && "active"
-                          }`}
+                          className={`nav-link ${currentPath == "/contact/" && "active"
+                            }`}
                         >
                           İletişim
                         </Link>
                       </li>
                     </ul>
-                  </div>
-
-                  <div className="others-option">
-                    <div className="subscribe">
-                      <Link href="/contact" className="default-btn">
-                        Randevu Al
-                      </Link>
-                    </div>
                   </div>
                 </div>
               </nav>
