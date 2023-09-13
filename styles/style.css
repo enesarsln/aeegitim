@@ -1352,9 +1352,11 @@ Footer Bottom Area Style
   text-transform: capitalize;
   margin-bottom: 0;
   color: #ffffff;
+  font-size: 1rem;
 }
 .footer-bottom-area .copy-right p a {
   color: #0cb8b6;
+  font-size: 1rem;
 }
 .footer-bottom-area .copy-right p a:hover {
   text-decoration: underline;

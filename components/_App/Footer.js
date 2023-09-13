@@ -135,7 +135,7 @@ const Footer = () => {
         <div className="container">
           <div className="copy-right">
             <p>
-            Copyright &copy; {currentYear} | AAEGITIM
+            Copyright &copy; {currentYear} | <a href="https://arslansoftwareservices.com/">Arslan Software Services</a>
             </p>
           </div>
         </div>
