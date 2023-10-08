@@ -12,10 +12,10 @@ const CourseOne = () => {
         <Navbar />
 
         <PageBanner
-        pageTitle="Porselen Laminate"
+        pageTitle="Porselen Laminate Veneer"
         homePageUrl="/"
         homePageText="Anasayfa"
-        activePageText="Porselen Laminate"
+        activePageText="Porselen Laminate Veneer"
         imgClass="bg-1"
       />
 

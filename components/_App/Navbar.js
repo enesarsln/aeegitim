@@ -94,7 +94,7 @@ const Navbar = () => {
                               className={`nav-link ${currentPath == "/course-1/" && "active"
                                 }`}
                             >
-                              Porselen Laminate
+                              Porselen Laminate Veneer
                             </Link>
                           </li>
 

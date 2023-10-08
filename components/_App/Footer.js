@@ -68,13 +68,13 @@ const Footer = () => {
                 <h3>Kurslar</h3>
                 <ul>
                   <li>
-                    <Link href="#">Porselen Laminate</Link>
+                    <Link href="course-1">Porselen Laminate Veneer</Link>
                   </li>
                   <li>
-                    <Link href="#">İmplant Destekli Protezler</Link>
+                    <Link href="course-2">İmplant Destekli Protezler</Link>
                   </li>
                   <li>
-                    <Link href="#">Temporomandibular</Link>
+                    <Link href="course-3">Temporomandibular</Link>
                   </li>
                 </ul>
               </div>

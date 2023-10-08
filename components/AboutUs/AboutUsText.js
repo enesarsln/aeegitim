@@ -12,7 +12,7 @@ const AboutUsText = () => {
       </div>
       <div className="row about-us-text">
         <div className="col-md-12 mb-4">
-          <p>
+          <p style={{ textAlign: "justify"}}>
             A. Atila Ertan, yılında TED Ankara Kolejinden ve 1994 yılında Hacettepe
             Üniversitesi Dişhekimliği Fakültesi’nden mezun oldu. H.Ü. Dişhekimliği
             Fakültesi Protetik Diş Tedavisi bölümünde başladığı doktora eğitimini

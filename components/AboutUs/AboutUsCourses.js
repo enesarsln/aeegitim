@@ -18,7 +18,7 @@ const AboutUsCourses = () => {
                 <ul>
                   <li>
                     <i className="flaticon-tick"></i>
-                    Porselen Laminate Eğitimi
+                    Porselen Laminate Veneer Eğitimi
                   </li>
                   <li>
                     <i className="flaticon-tick"></i>
