@@ -82,12 +82,18 @@
     height: 100%;
     text-align: center;
     padding-top: 50px;
+    background-size: 950px;
+    background-position: top;
   }
 
   .main-banner-area .banner-img-wrap .banner-img {
     max-width: 350px;
     position: unset;
     margin: 30px auto 0;
+  }
+
+  .main-banner-area .banner-img-wrap .banner-img img {
+    max-width: 50%;
   }
 
   .main-banner-area .banner-img-wrap .banner-shape {
@@ -1157,8 +1163,7 @@
   }
 
   .main-banner-area {
-    height: 100%;
-    text-align: center;
+    height: 650px;
     padding-top: 115px;
   }
 
@@ -1172,9 +1177,13 @@
   }
 
   .main-banner-area .banner-img-wrap .banner-img {
-    max-width: 400px;
+    max-width: 300px;
     position: unset;
     margin: 30px auto 0;
+  }
+
+  .main-banner-area .banner-img-wrap .banner-img img {
+    max-width: 90%;
   }
 
   .main-banner-area .banner-img-wrap .banner-shape {
@@ -1298,8 +1307,12 @@
     margin-top: 30px;
   }
 
+  .about-img {
+    text-align: center;
+  }
+
   .about-img img {
-    width: 100%;
+    width: 70%;
   }
 
   .single-services {

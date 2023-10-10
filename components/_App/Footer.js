@@ -74,7 +74,7 @@ const Footer = () => {
                     <Link href="course-2">İmplant Destekli Protezler</Link>
                   </li>
                   <li>
-                    <Link href="course-3">Temporomandibular</Link>
+                    <Link href="course-3">Temporomandibular Eklem Rahatsızlıkları, Bruksizm, Splint ve Horlama Apareyi Yapımı</Link>
                   </li>
                 </ul>
               </div>

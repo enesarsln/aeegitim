@@ -7,29 +7,26 @@ import CourseProgramThree from "../components/Courses/CourseThree/CourseProgramT
 import Footer from "../components/_App/Footer";
 
 const CourseThree = () => {
-    return(
-        <>
+  return (
+    <>
 
-        <Navbar />
+      <Navbar />
 
-        <PageBanner
-        pageTitle="Temporomandibular"
-        homePageUrl="/"
-        homePageText="Anasayfa"
-        activePageText="Temporomandibular"
+      <PageBanner
+        pageTitle="Temporomandibular Eklem Rahatsızlıkları, Bruksizm, Splint yapımı, Horlama Apareyi"
         imgClass="bg-1"
       />
 
       <CourseThreeTop />
-      
+
       <CourseThreeMiddle />
 
       <CourseProgramThree />
 
       <Footer />
 
-        </>
-    )
+    </>
+  )
 }
 
 export default CourseThree

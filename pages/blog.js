@@ -13,9 +13,6 @@ const Blog = () => {
 
         <PageBanner
         pageTitle="Blog"
-        homePageUrl="/"
-        homePageText="Anasayfa"
-        activePageText="Blog"
         imgClass="bg-1"
       />
 

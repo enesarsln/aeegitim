@@ -10,9 +10,6 @@ const SignIn = () => {
 
       <PageBanner
         pageTitle="Giriş Yap"
-        homePageUrl="/"
-        homePageText="Anasayfa"
-        activePageText="Giriş Yap"
         imgClass="bg-1"
       />
 

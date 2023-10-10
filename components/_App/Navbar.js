@@ -114,7 +114,7 @@ const Navbar = () => {
                               className={`nav-link ${currentPath == "/course-3/" && "active"
                                 }`}
                             >
-                              Temporomandibular
+                              Temporomandibular Eklem Rahatsızlıkları, Bruksizm, Splint ve Horlama Apareyi Yapımı
                             </Link>
                           </li>
                         </ul>

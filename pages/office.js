@@ -12,9 +12,6 @@ const Office = () => {
 
       <PageBanner
         pageTitle="Ofis Tanıtım"
-        homePageUrl="/"
-        homePageText="Anasayfa"
-        activePageText="Ofis Tanıtım"
         imgClass="bg-1"
       />
 

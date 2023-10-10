@@ -869,11 +869,12 @@ About Area Style
 }
 .about-area .about-img img {
   border-radius: 4px;
+  max-height: 600px;
 }
 .about-area .about-img .shape-1 {
   position: absolute;
   top: 0;
-  left: -30px;
+  left: -50px;
   z-index: -1;
 }
 .about-area .about-img .shape-1 img {
@@ -1563,7 +1564,7 @@ Page Title Area Style
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  padding-top: 200px;
+  padding-top: 300px;
   padding-bottom: 150px;
   text-align: center;
   background-position: center center;
@@ -3615,7 +3616,7 @@ Page-navigation Area Style*/
 }
 
 .office-content-box .office-content-img{
-  width: 40vh;
+  width: 50vh;
   height: 90%;
   margin: auto;
   padding: 5px;
@@ -3640,7 +3641,7 @@ Page-navigation Area Style*/
 .office-content-text p{
   width: 90%;
   margin: auto;
-  line-height: 2.6em;
+  line-height: 2em;
   font-size: 1rem;
 }
 
@@ -3687,17 +3688,17 @@ Page-navigation Area Style*/
 }
 
 .course-one-top-box img{
-  height: 200px;
   margin: auto;
-  width: 350px;
+  width: 60%;
   border-radius: 10px;
 }
 
 .course-one-top-box p{
-  text-align: left;
+  text-align: justify;
   font-size: .9rem;
-  line-height: 2.4rem;
+  line-height: 2rem;
 }
+
 .course-one-top-box span{
   text-align: left;
   width: 100%;
@@ -3718,7 +3719,6 @@ Page-navigation Area Style*/
 
 .course-one-middle .course-one-middel-box {
   width: 50%;
-  min-height: 60vh;
 }
 
 .course-one-middel .course-one-middel-text {
@@ -3730,8 +3730,9 @@ Page-navigation Area Style*/
 .course-one-middel-text p {
   width: 90%;
   margin: auto;
-  line-height: 2.4rem;
+  line-height: 2rem;
   font-size: .9rem;
+  text-align: justify;
 }
 
 .course-one-middle .course-one-middel-img {
@@ -3742,8 +3743,7 @@ Page-navigation Area Style*/
 }
 
 .course-one-middel-img img {
-  width: 250px;
-  height: 200px;
+  height: 260px;
   margin: 20px;
   border-radius: 10px;
 }
@@ -3784,7 +3784,7 @@ Page-navigation Area Style*/
   width: 100%;
   min-height: 25vh;
   box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
-  padding: 10px;
+  padding: 30px;
   display: flex;
   justify-content: space-around;
 }

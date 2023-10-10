@@ -7,15 +7,12 @@ import CourseProgramOne from "../components/Courses/CourseOne/CourseProgramOne";
 import Footer from "../components/_App/Footer";
 
 const CourseOne = () => {
-    return(
-        <>
-        <Navbar />
+  return (
+    <>
+      <Navbar />
 
-        <PageBanner
+      <PageBanner
         pageTitle="Porselen Laminate Veneer"
-        homePageUrl="/"
-        homePageText="Anasayfa"
-        activePageText="Porselen Laminate Veneer"
         imgClass="bg-1"
       />
 
@@ -26,8 +23,8 @@ const CourseOne = () => {
       <CourseProgramOne />
 
       <Footer />
-        </>
-    )
+    </>
+  )
 }
 
 export default CourseOne

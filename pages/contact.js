@@ -12,9 +12,6 @@ const Contact = () => {
 
       <PageBanner
         pageTitle="İletişim"
-        homePageUrl="/"
-        homePageText="Anasayfa"
-        activePageText="İletişim"
         imgClass="bg-1"
       />
       

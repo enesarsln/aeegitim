@@ -7,15 +7,12 @@ import CourseProgramTwo from "../components/Courses/CourseTwo/CourseProgramTwo";
 import Footer from "../components/_App/Footer";
 
 const CourseTwo = () => {
-    return(
-        <>
-        <Navbar />
+  return (
+    <>
+      <Navbar />
 
-        <PageBanner
+      <PageBanner
         pageTitle="İmplant Destekli Protezler"
-        homePageUrl="/"
-        homePageText="Anasayfa"
-        activePageText="İmplant Destekli Protezler"
         imgClass="bg-1"
       />
 
@@ -26,8 +23,8 @@ const CourseTwo = () => {
       <CourseProgramTwo />
 
       <Footer />
-        </>
-    )
+    </>
+  )
 }
 
 export default CourseTwo

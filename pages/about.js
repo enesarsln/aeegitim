@@ -13,9 +13,6 @@ const About = () => {
 
       <PageBanner
         pageTitle="Özgeçmiş"
-        homePageUrl="/"
-        homePageText="Anasayfa"
-        activePageText="Özgeçmiş"
         imgClass="bg-1"
       />
 
@@ -24,7 +21,6 @@ const About = () => {
       <AboutUsCourses />
 
       <ContactForm />
-
 
       <Footer />
     </>
