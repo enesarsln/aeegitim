@@ -64,15 +64,11 @@ const SignIn = () => {
                 </form>
               </div>
             </div>
-
-            <div className="col-lg-6">
-              <div className="log-in-img"></div>
-            </div>
           </div>
         </div>
       </div>
 
-      <Footer />
+
     </>
   );
 };
