@@ -838,15 +838,17 @@
   }
 
   .office-content-box .office-content-img {
-    width: 100%;
+    width: 80%;
     align-items: center;
     display: flex;
     justify-content: center;
+    flex-direction: column;
   }
 
   .office-content-img img {
-    width: 75%;
-    height: 75%;
+    width: 60%;
+    height: 60%;
+    margin: 5px 0px;
   }
 
   .office-content-box .office-content-text {
@@ -1098,6 +1100,15 @@
     height: 50%;
   }
 }
+
+@media only screen and (max-width: 1024px) {
+  .course-one-middle {
+    flex-direction: column;
+  }
+  .course-one-middle .course-one-middel-box {
+    width: 100%;
+  }
+} 
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 
