@@ -1055,9 +1055,7 @@
     font-size: .8rem;
   }
   .page-title-area {
-    width: 80%;
-    margin: auto;
-    border-radius: 0px 0px 15px 15px;
+    height: 10vh;
 }
 }
 
@@ -1073,10 +1071,6 @@
 }
 .page-title-area .page-title-content h2 {
   font-size: 15px;
-}
-.page-title-area {
-  width: 100%;
-  border-radius: 0px;
 }
 }
 
