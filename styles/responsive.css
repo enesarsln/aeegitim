@@ -2,6 +2,19 @@
   .blog-content .blog-post-card {
     width: 95% !important;
   }
+  .course-two-middle .course-two-middel-box {
+    width: 100%;
+}
+.course-program .course-program-content{
+  padding: 0px;
+}
+.page-title-area .page-title-content h2 {
+  font-size: 15px;
+}
+.page-title-area {
+  width: 100%;
+  border-radius: 0px;
+}
 }
 
 @media only screen and (max-width: 767px) {
@@ -282,13 +295,13 @@
   }
 
   .page-title-area {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 80px;
+    padding-bottom: 80px;
   }
-
+/* 
   .page-title-area .page-title-content h2 {
-    font-size: 30px;
-  }
+    font-size: 20px;
+  } */
 
   .page-navigation-area {
     margin: 0px auto 0;
@@ -846,8 +859,8 @@
   }
 
   .office-content-img img {
-    width: 60%;
-    height: 60%;
+    width: 180px;
+    height: auto;
     margin: 5px 0px;
   }
 
@@ -856,13 +869,13 @@
   }
 
   .office-content-box .office-content-text p {
-    font-size: .7rem;
+    font-size: .9rem;
   }
 
   .course-one-top .course-one-top-container {
     flex-direction: column;
     width: 100%;
-    padding: 30px 0px 20px 0px;
+    padding: 20px 0px 20px 0px;
     margin-top: 0px;
   }
 
@@ -873,7 +886,7 @@
   }
 
   .course-one-top-container .course-one-top-box:nth-child(1) {
-    display: none;
+    margin: auto;
   }
 
 
@@ -1041,7 +1054,26 @@
   .blog-bottom-text span {
     font-size: .8rem;
   }
+  .page-title-area {
+    height: 10vh;
 }
+}
+
+@media only screen and (max-width: 574px) {
+  .blog-content .blog-post-card {
+    width: 95% !important;
+  }
+  .course-two-middle .course-two-middel-box {
+    width: 100%;
+}
+.course-program .course-program-content{
+  padding: 0px;
+}
+.page-title-area .page-title-content h2 {
+  font-size: 15px;
+}
+}
+
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .header-area .top-header-area .header-content-right {
@@ -1096,9 +1128,9 @@
   }
 
   .office-content-img img {
-    width: 50%;
-    height: 50%;
-  }
+    width: 200px;
+    height: auto;
+}
 }
 
 @media only screen and (max-width: 1024px) {
@@ -1108,6 +1140,10 @@
   .course-one-middle .course-one-middel-box {
     width: 100%;
   }
+  .course-one-middel-box img {
+    width: 200px;
+    height: 200px;
+}
 } 
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -1590,9 +1626,7 @@
     padding-bottom: 120px;
   }
 
-  .page-title-area .page-title-content h2 {
-    font-size: 30px;
-  }
+ 
 
   .page-navigation-area {
     margin: 0px auto 0;
@@ -2128,8 +2162,8 @@
   }
 
   .course-one-top-box img {
-    height: 80%;
-    width: 80%;
+    height: auto;
+    width: 250px;
   }
 
   .course-one-middel-text p {
@@ -2138,8 +2172,7 @@
   }
 
   .course-one-middel-img img {
-    width: 200px;
-    height: 150px;
+    height: 260px;
     margin: 20px;
     border-radius: 10px;
   }
