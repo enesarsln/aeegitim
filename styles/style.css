@@ -1599,8 +1599,10 @@ Page Title Area Style
 .page-title-area .page-title-content h2 {
   margin-bottom: 15px;
   color: #ffffff;
-  font-size: 40px;
-  font-weight: 700;
+  font-size: 28px;
+  font-weight: 600;
+  width: 100%;
+  margin: auto;
 }
 .page-title-area .page-title-content ul {
   padding-left: 0;
