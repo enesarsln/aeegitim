@@ -30,7 +30,7 @@ const CourseThreeMiddle = () => {
 
     return (
         <>
-            <div className="office-content-container">
+            <div className="course-three-middle">
                 {courseThreeTexts.map((info, index) => (
                     <OfficeContentBox key={index} info={info} index={index} />
                 ))}
@@ -52,12 +52,12 @@ const OfficeContentBox = ({ info, index }) => {
     const isEvenIndex = index % 2 === 0;
 
     return (
-        <div className={`office-content-box ${isEvenIndex ? "even" : "odd"}`}>
-            <div className="office-content-img">
+        <div className={`course-three-box ${isEvenIndex ? "even" : "odd"}`}>
+            <div className="course-three-img">
                 <img className="me-2" src={info.img} alt="image" />
                 {info.img2 && <img src={info.img2} alt="image" />}
             </div>
-            <div className="office-content-text">
+            <div className="course-three-text">
                 <p>{info.text}</p>
             </div>
         </div>

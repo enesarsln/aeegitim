@@ -14,7 +14,34 @@
 .page-title-area {
   width: 100%;
   border-radius: 0px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
+.blog-content .blog-post-card {
+  width: 95% !important;
+}
+.course-two-middle .course-two-middel-box {
+  width: 100%;
+}
+.course-program .course-program-content{
+padding: 0px;
+}
+.page-title-area .page-title-content h2 {
+font-size: 20px;
+}
+
+.course-three-middle .course-three-box{
+  min-height: 40vh;
+  padding: 20px 5px;
+}
+  .page-title-area {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  .office-content-img img{
+    height: auto;
+    width: 280px;
+  }
 }
 
 @media only screen and (max-width: 767px) {
@@ -858,11 +885,11 @@
     flex-direction: column;
   }
 
-  .office-content-img img {
+  /* .office-content-img img {
     width: 180px;
     height: auto;
     margin: 5px 0px;
-  }
+  } */
 
   .office-content-box .office-content-text {
     width: 100%;
@@ -956,35 +983,7 @@
     font-size: .9rem;
   }
 
-  .course-three-top {
-    padding: 15px;
-  }
-
-  .course-three-top h3 {
-    font-size: .8rem;
-  }
-
-  .course-three-top-content .course-three-top-text {
-    width: 90%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-  }
-
-  .course-three-top-text p {
-    font-size: .7rem;
-    line-height: 1.7rem;
-  }
-
-  .course-three-middle-p p {
-    font-size: .7rem;
-    width: 100%;
-  }
-
-  .course-three-middle-p span {
-    font-size: .9rem;
-  }
+  
 
   .blog-top {
     padding: 20px;
@@ -1057,21 +1056,32 @@
   .page-title-area {
     height: 10vh;
 }
+
+.course-three-middle .course-three-box{
+  height: auto;
+  padding: 20px 5px;
+}
+.course-three-middle .course-three-box.odd{
+  flex-direction: column;
+}
+.course-three-middle .course-three-box.even{
+  flex-direction: column;
+}
+.course-three-box .course-three-img{
+  width: 100%;
 }
 
-@media only screen and (max-width: 574px) {
-  .blog-content .blog-post-card {
-    width: 95% !important;
-  }
-  .course-two-middle .course-two-middel-box {
-    width: 100%;
+.course-three-box .course-three-text{
+  width: 100%;
 }
-.course-program .course-program-content{
-  padding: 0px;
+
+.page-title-area {
+  width: 100%;
+  border-radius: 0px;
+  padding-top: 75px;
+  padding-bottom: 75px;
 }
-.page-title-area .page-title-content h2 {
-  font-size: 15px;
-}
+
 }
 
 
@@ -1131,6 +1141,11 @@
     width: 200px;
     height: auto;
 }
+.office-content-img img {
+  width: auto;
+  height: 240px;
+  margin: 5px 0px;
+}
 }
 
 @media only screen and (max-width: 1024px) {
@@ -1143,6 +1158,13 @@
   .course-one-middel-box img {
     width: 200px;
     height: 200px;
+}
+
+.course-three-img img{
+  height: 170px;
+}
+.course-three-text p{
+  font-size: .8rem;
 }
 } 
 
@@ -1622,8 +1644,8 @@
   }
 
   .page-title-area {
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding-top: 100px;
+    padding-bottom: 100px;
   }
 
  
