@@ -73,7 +73,7 @@ const MainBanner = () => {
                       data-aos-duration="1200"
                     >
                       <img
-                        src="/img/home-one/home-one-banner.png"
+                        src="/img/deneme.png"
                         alt="Image"
                       />
                     </div>
