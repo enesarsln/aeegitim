@@ -117,6 +117,15 @@ const Navbar = () => {
                               Temporomandibular Eklem Rahatsızlıkları, Bruksizm, Splint ve Horlama Apareyi Yapımı
                             </Link>
                           </li>
+                          <li className="nav-item">
+                            <Link
+                              href="/course-4/"
+                              className={`nav-link ${currentPath == "/course-4/" && "active"
+                                }`}
+                            >
+                              Dental Foto
+                            </Link>
+                          </li>
                         </ul>
                       </li>
 
