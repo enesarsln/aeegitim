@@ -5,27 +5,27 @@ const CourseFourMiddle = () => {
         {
             img: "/img/temporomandibular/temporomandibular-2.jpg",
             img2: "/img/temporomandibular/temporomandibular-3.jpg",
-            text: "Terminoloji, ekipman ve kompozisyon bilgisi"
+            text: "Teorik sunum ile başlayacak olan kursumuzda, sunum ile başlayacak olan kursumuzda, sunumda kullanılan slaytların spiralli dosya şeklinde çıktıları verilecektir"
         },
         {
             img: "/img/temporomandibular/temporomandibular-4.jpg",
             img2: "/img/temporomandibular/temporomandibular-5.jpg",
-            text: "Tüm intraoral ve ekstraoral fotoğraf protokolü"
+            text: "Uygulamalar sırasında her katılımcı meslektaşlarımıza bir çift ekartör,bir tane bukkal, bir tane oklüzal ayna temin edilerek ve kurs için toplam 3 adet Nikon ve 3 adet Canon kamera ile 60,85,105mm makro lensler ve ring ve twin flaşlarla çekimler yapılacaktır."
         },
         {
             img: "/img/temporomandibular/temporomandibular-4.jpg",
             img2: "/img/temporomandibular/temporomandibular-5.jpg",
-            text: "Dijital tasarım amaçlı yüz fotoğrafı çekimi "
+            text: "Fotoğraf çekimleri olarak her katılımcı çiftler halinde gruplara ayrıldıktan sonra birbirlri üzerinde farklı büyütme oranları ile ekartörlü, ekartörsüz alt üst oklüzyon, bukkal on iki pozisyonu fotoğraflarına ek olarak renk seçimi, dental çalışma  modeli veya restorasyon fotoğrafı ve paraflash ve sürekli ışık kaynağı ile dijital gülümseme tasarımına yönelik fotoğrafların uygulamaları yapılacaktır. "
         },
         {
             img: "/img/temporomandibular/temporomandibular-7.jpg",
             img2: "/img/temporomandibular/temporomandibular-8.jpg",
-            text: "Profesyonel sonuçları  için donanım oluşturma"
+            text: "Fotoğraf çekimlerini takiben adobe phoshop programı ile fotoğrafların nasıl düzenleneceği ve exocad yazılımı için fotoğrafların nasıl yüklenip kullanılacağı ve dijital gülümseme tasarımı uygulaması gösterilecektir."
         },
         {
             img: "/img/temporomandibular/temporomandibular-9.jpg",
             img2: "/img/temporomandibular/temporomandibular-10.jpg",
-            text: "Nikon ve canon sistemleri bolca uygulama"
+            text: "Kurs boyunca çay,kahve ikramlarımız ve öğle yemeği de programa dahildir. Kursumuzun sonunda sertifika verilecektir.Şehir dışından geliyorsanız eğitim merkezimize ulaşım son derece kolaydır."
         },
     ];
 
@@ -54,9 +54,9 @@ const MiddleContent = ({ info, index }) => {
     return (
         <div className={`course-four-middle-box ${isEvenIndex ? "even" : "odd"}`}>
             <div className="course-four-middle-p">
-                <h3 className="title-course-four">
+                <p>
                     {info.text}
-                </h3>
+                </p>
             </div>
             <div className="course-four-middle-img">
             <img src={info.img} alt="image" />

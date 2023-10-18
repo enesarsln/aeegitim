@@ -8,13 +8,14 @@ const CourseFourTop = () => {
                     <img src="/img/temporomandibular/temporomandibular-1.jpg" alt="Image" />
                 </div>
                 <div className="course-one-top-box">
-                    <span className="top-title">Gülümsemeleri Mükemmel Kılın</span>
-                    <p>
-                    Bu kurs, diş hekimliği alanında fotoğrafçılık ve dijital gülümseme tasarımı odaklıdır.
-                    Katılımcılara sunumlarla eğitim verilecek, uygulamalarda gerekli ekipmanlar temin edilecektir. 
-                    Katılımcılar, diş fotoğrafları çekecek, düzenleyecek ve dijital gülümseme tasarımı uygulamalarını 
-                    öğreneceklerdir. Kurs boyunca çay, kahve ikramları ve öğle yemeği sunulacak, katılımcılara sertifika verilecektir.
-                    </p>
+                    <span className="top-title" style={{marginLeft: '63px'}}>Kursun İçeriği</span>
+                    <ul>
+                        <li>Terminoloji, ekipman ve kompozisyon bilgisi </li>
+                        <li>Tüm intraoral ve ekstraoral fotoğraf protokolü</li>
+                        <li>Dijital tasarım amaçlı yüz fotoğrafı çekimi </li>
+                        <li>Profesyonel sonuçları  için donanım oluşturma </li>
+                        <li>Nikon ve canon sistemleri bolca uygulama</li>
+                    </ul>
                 </div>
             </div>
         </div>
