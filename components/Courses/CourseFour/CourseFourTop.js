@@ -8,7 +8,7 @@ const CourseFourTop = () => {
                     <img src="/img/temporomandibular/temporomandibular-1.jpg" alt="Image" />
                 </div>
                 <div className="course-one-top-box">
-                    <span className="top-title" style={{marginLeft: '63px'}}>Kursun İçeriği</span>
+                    <span className="top-title" style={{marginLeft: '30px'}}>Kursun İçeriği</span>
                     <ul>
                         <li>Terminoloji, ekipman ve kompozisyon bilgisi </li>
                         <li>Tüm intraoral ve ekstraoral fotoğraf protokolü</li>

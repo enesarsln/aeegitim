@@ -4039,7 +4039,7 @@ Page-navigation Area Style*/
 }
 
 .course-one-top-box ul li {
-  list-style: none;
+  list-style: circle;
   text-align: left;
   font-size: .9rem;
   margin-top: 5px;
