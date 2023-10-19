@@ -4047,6 +4047,79 @@ Page-navigation Area Style*/
   font-weight: 600;
 }
 
+/* ====COURSE FOUR MIDDLE ===*/
+.course-four-middle {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.course-four-middle .course-four-middle-box {
+  width: 80%;
+  height: auto;
+  padding: 15px 5px;
+  display: flex;
+  align-items: center;
+  margin: 30px auto;
+  box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+  background: linear-gradient(135deg, #fff, #fff, #f5ffff, #f5ffff, #fff, #fff);
+  animation: about-bg-anm 4s infinite linear;
+  background-size: 200% 200%;
+}
+
+.course-four-middle  .course-four-middle-box.even {
+  flex-direction: row;
+}
+
+.course-four-middle  .course-four-middle-box.odd {
+  flex-direction: row-reverse;
+}
+
+.course-four-middle-box .course-four-middle-p{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.course-four-middle-p p{
+  text-align: center;
+  font-weight: 500;
+  font-size: 1rem;
+  width: 90%;
+  margin: auto;
+}
+
+.course-four-middle-box .course-four-middle-img{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.course-four-middle-img img {
+  height: auto;
+  width: 45%;
+  margin: auto 10px;
+  border-radius: 10px;
+}
+
+.course-one-top-box ul {
+  width: 100%;
+}
+
+.course-one-top-box ul li {
+  list-style: circle;
+  text-align: left;
+  font-size: .9rem;
+  margin-top: 5px;
+}
+
+
 /* ====BLOG===== */
 .blog-top{
   width: 100%;
