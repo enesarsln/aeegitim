@@ -76,6 +76,9 @@ const Footer = () => {
                   <li>
                     <Link href="course-3">Temporomandibular Eklem Rahatsızlıkları, Bruksizm, Splint ve Horlama Apareyi Yapımı</Link>
                   </li>
+                  <li>
+                    <Link href="course-4">Dental Foto</Link>
+                  </li>
                 </ul>
               </div>
             </div>

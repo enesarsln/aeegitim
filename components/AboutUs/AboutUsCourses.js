@@ -28,6 +28,10 @@ const AboutUsCourses = () => {
                     <i className="flaticon-tick"></i>
                     Temporomandibular Eklem Rahatsızlıkları, Bruksizm, Splint ve Horlama Apareyi Yapımı Eğitimi
                   </li>
+                  <li>
+                    <i className="flaticon-tick"></i>
+                    Dental Foto
+                  </li>
                 </ul>
               </div>
             </div>
