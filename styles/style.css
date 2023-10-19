@@ -1599,8 +1599,10 @@ Page Title Area Style
 .page-title-area .page-title-content h2 {
   margin-bottom: 15px;
   color: #ffffff;
-  font-size: 40px;
-  font-weight: 700;
+  font-size: 28px;
+  font-weight: 600;
+  width: 100%;
+  margin: auto;
 }
 .page-title-area .page-title-content ul {
   padding-left: 0;
@@ -1746,6 +1748,9 @@ Sign In & Log In  Area Style
 }
 .user-area-all-style .contact-form-action form .form-condition {
   margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .user-area-all-style .contact-form-action form .form-condition .agree-label {
   font-weight: 600;
@@ -3626,8 +3631,8 @@ Page-navigation Area Style*/
 }
 
 .office-content-img img{
-  width: 80%;
-  height: 80%;
+  width: auto;
+  height: 210px;
   border-radius: 10px;
 }
 
@@ -3850,51 +3855,66 @@ Page-navigation Area Style*/
 
 /* ==CourseTwoMiddle== */
 .course-two-middle {
-  width: 100%;
   display: flex;
   justify-content: center;
+  flex-direction: column;
   align-items: center;
-}
-
-.course-two-middle .course-two-middle-box{
+  margin: 20px auto 40px auto;
+  padding: 10px;
   width: 95%;
-  height: auto;
-  margin: auto;
-  padding: 10px 20px;
-  display: flex;
+  min-height: 80vh;
   box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
 }
 
-.course-two-middle-box .course-two-middle-text{
-  width: 60%;
+.course-two-middle .course-two-middel-box {
+  width: 80%;
+}
+
+.course-two-middel .course-two-middel-text {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
-  padding: 5px;
 }
 
-.course-two-middle-text p{
-  line-height: 2.4em;
+.course-two-middel-text p {
+  width: 90%;
+  margin: auto;
+  line-height: 2rem;
   font-size: .9rem;
-}
-.course-two-middle-text span{
-  text-align: left;
-  width: 100%;
+  text-align: justify;
 }
 
-.course-two-middle-box .course-two-middle-img{
-  width: 40%;
+.course-two-middle .course-two-middel-img {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 5px;
+  justify-content: center; 
+  align-items: center; 
+  flex-wrap: wrap; 
 }
 
-.course-two-middle-img img{
-  width: 320px;
-  height: 250px;
+.course-two-middel-img img {
+  height: 260px;
+  margin: 20px;
   border-radius: 10px;
+}
+
+.course-two-middle-p {
+  width: 95%;
+  margin: auto;
+  text-align: center;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+  background-color: #D6FBFD;
+}
+
+.course-two-middle-p p{
+  text-align: center;
+  font-weight: 700;
+  font-size: 1rem;
+}
+.course-two-middle-p span{
+  font-size: 1.1rem;
+  color: #0b7575;
+  font-weight: 600;
 }
 
 /* ===CourseThree=== */
@@ -3951,8 +3971,64 @@ Page-navigation Area Style*/
 
 /* ==Course Three Middle== */
 
+.course-three-middle {
+  width: 90%;
+  height: auto;
+  margin: 5vh auto;
+}
+
+.course-three-middle .course-three-box{
+  display: flex;
+  width: 100%;
+  height: 40vh;
+  margin: 5vh auto;
+  box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+  background: linear-gradient(135deg, #fff, #fff, #f5ffff, #f5ffff, #fff, #fff);
+  animation: about-bg-anm 4s infinite linear;
+  background-size: 200% 200%;
+  padding: 10px;
+}
+
+.course-three-middle .course-three-box.even {
+  flex-direction: row-reverse;
+}
+
+.course-three-middle .course-three-box.odd {
+  flex-direction: row;
+}
+
+.course-three-box .course-three-img{
+  width: 50vh;
+  height: 95%;
+  margin: auto;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.course-three-img img{
+  width: auto;
+  height: 210px;
+  border-radius: 10px;
+}
+
+.course-three-box .course-three-text{
+  width: 70%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.course-three-text p{
+  width: 90%;
+  margin: auto;
+  line-height: 2em;
+  font-size: 1rem;
+}
+
 .course-three-middle-p {
-  width: 85%;
+  width: 95%;
   margin: auto;
   text-align: center;
   padding: 20px;
@@ -3964,8 +4040,6 @@ Page-navigation Area Style*/
   text-align: center;
   font-weight: 700;
   font-size: 1rem;
-  width: 80%;
-  margin: auto;
 }
 .course-three-middle-p span{
   font-size: 1.1rem;
@@ -4161,7 +4235,7 @@ Page-navigation Area Style*/
 .post-card-p p{
   width: 90%;
   font-size: .9rem;
-  line-height: 2.4rem;
+  line-height: 2rem;
 }
 
 .blog-page-bottom{

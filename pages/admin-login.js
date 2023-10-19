@@ -1,7 +1,6 @@
 import React from "react";
 import Navbar from "../components/_App/Navbar";
 import PageBanner from "../components/Common/PageBanner";
-import Footer from "../components/_App/Footer";
 
 const SignIn = () => {
   return (
@@ -11,13 +10,13 @@ const SignIn = () => {
       <PageBanner
         pageTitle="Giriş Yap"
         imgClass="bg-1"
+        style={{
+         width: '100px'
+        }}
       />
 
       <div className="user-area-all-style log-in-area ptb-100">
         <div className="container">
-          <div className="section-title">
-            <h2>Hesabınıza Giriş Yapın</h2>
-          </div>
 
           <div className="row">
             <div className="col-lg-6">
@@ -64,15 +63,11 @@ const SignIn = () => {
                 </form>
               </div>
             </div>
-
-            <div className="col-lg-6">
-              <div className="log-in-img"></div>
-            </div>
           </div>
         </div>
       </div>
 
-      <Footer />
+
     </>
   );
 };
