@@ -30,9 +30,9 @@ const CourseThreeMiddle = () => {
 
     return (
         <>
-            <div className="course-three-middle">
+            <div className="course-four-middle">
                 {courseThreeTexts.map((info, index) => (
-                    <OfficeContentBox key={index} info={info} index={index} />
+                    <MiddleContent info={info} index={index} />
                 ))}
             </div>
             <div className="course-three-middle-p">
@@ -48,17 +48,18 @@ const CourseThreeMiddle = () => {
 
 export default CourseThreeMiddle;
 
-const OfficeContentBox = ({ info, index }) => {
+const MiddleContent = ({ info, index }) => {
     const isEvenIndex = index % 2 === 0;
-
     return (
-        <div className={`course-three-box ${isEvenIndex ? "even" : "odd"}`}>
-            <div className="course-three-img">
-                <img className="me-2" src={info.img} alt="image" />
-                {info.img2 && <img src={info.img2} alt="image" />}
+        <div className={`course-four-middle-box ${isEvenIndex ? "even" : "odd"}`}>
+            <div className="course-four-middle-p">
+                <p>
+                    {info.text}
+                </p>
             </div>
-            <div className="course-three-text">
-                <p>{info.text}</p>
+            <div className="course-four-middle-img">
+            <img src={info.img} alt="image" />
+            {info.img2 && <img src={info.img2} alt="image" />}
             </div>
         </div>
     );
