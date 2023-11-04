@@ -5,10 +5,16 @@ import Footer from "../components/_App/Footer";
 import CourseFourTop from "../components/Courses/CourseFour/CourseFourTop";
 import CourseProgramFour from "../components/Courses/CourseFour/CourseProgramFour";
 import CourseFourMiddle from "../components/Courses/CourseFour/CourseFourMiddle";
+import Head from "next/head";
 
 const CourseFour = () => {
   return (
     <>
+      <Head>
+        <title>AE Eğitim ve Yayıncılık</title>
+        <meta name="description" content="Dental Foto" />
+        <meta name="keywords" content="dental foto, dental" />
+      </Head>
 
       <Navbar />
 

@@ -90,8 +90,8 @@ const Navbar = () => {
                         <ul className="dropdown-menu">
                           <li className="nav-item">
                             <Link
-                              href="/course-1/"
-                              className={`nav-link ${currentPath == "/course-1/" && "active"
+                              href="/porselen-laminate-veneer/"
+                              className={`nav-link ${currentPath == "/porselen-laminate-veneer/" && "active"
                                 }`}
                             >
                               Porselen Laminate Veneer
@@ -100,8 +100,8 @@ const Navbar = () => {
 
                           <li className="nav-item">
                             <Link
-                              href="/course-2/"
-                              className={`nav-link ${currentPath == "/course-2/" && "active"
+                              href="/implant-destekli-protezler/"
+                              className={`nav-link ${currentPath == "/implant-destekli-protezler/" && "active"
                                 }`}
                             >
                               İmplant Destekli Protezler
@@ -110,8 +110,8 @@ const Navbar = () => {
 
                           <li className="nav-item">
                             <Link
-                              href="/course-3/"
-                              className={`nav-link ${currentPath == "/course-3/" && "active"
+                              href="/temporomandibular-eklem-rahatsizliklari/"
+                              className={`nav-link ${currentPath == "/temporomandibular-eklem-rahatsizliklari/" && "active"
                                 }`}
                             >
                               Temporomandibular Eklem Rahatsızlıkları, Bruksizm, Splint ve Horlama Apareyi Yapımı
@@ -119,8 +119,8 @@ const Navbar = () => {
                           </li>
                           <li className="nav-item">
                             <Link
-                              href="/course-4/"
-                              className={`nav-link ${currentPath == "/course-4/" && "active"
+                              href="/dental-foto/"
+                              className={`nav-link ${currentPath == "/dental-foto/" && "active"
                                 }`}
                             >
                               Dental Foto
@@ -131,8 +131,8 @@ const Navbar = () => {
 
                       <li className="nav-item">
                         <Link
-                          href="/about/"
-                          className={`nav-link ${currentPath == "/about/" && "active"
+                          href="/ozgecmis/"
+                          className={`nav-link ${currentPath == "/ozgecmis/" && "active"
                             }`}
                         >
                           Özgeçmiş
@@ -141,8 +141,8 @@ const Navbar = () => {
 
                       <li className="nav-item">
                         <Link
-                          href="/office/"
-                          className={`nav-link ${currentPath == "//" && "active"
+                          href="/ofis-tanitim/"
+                          className={`nav-link ${currentPath == "/ofis-tanitim/" && "active"
                             }`}
                         >
                           Ofis Tanıtım
@@ -162,8 +162,8 @@ const Navbar = () => {
 
                       <li className="nav-item">
                         <Link
-                          href="/contact/"
-                          className={`nav-link ${currentPath == "/contact/" && "active"
+                          href="/iletisim/"
+                          className={`nav-link ${currentPath == "/iletisim/" && "active"
                             }`}
                         >
                           İletişim
