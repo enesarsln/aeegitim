@@ -30,8 +30,8 @@ const ContactForm = () => {
   const handleChange = (e) => {
     const { name, value } = e.target;
     setContact((prevState) => ({ ...prevState, [name]: value }));
-    // console.log(contact)
   };
+
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
@@ -105,21 +105,20 @@ const ContactForm = () => {
                     </div>
                   </div>
 
-                  
-                <div className="col-lg-6 col-sm-6">
-                  <label>Konu</label>
-                  <div className="form-group">
-                    <select className="form-control">
-                      <option value="0">Bir konu seçin</option>
-                      <option value="1">Porselen Laminate</option>
-                      <option value="2">İmplant Destekli Protezler</option>
-                      <option value="3">Temporomandibular</option>
-                      <option value="4">Eğitim İmkanları</option>
-                      <option value="5">Diplomalar</option>
-                      <option value="6">Fiyatlar</option>
-                    </select>
+                  <div className="col-lg-6 col-sm-6">
+                    <label>Konu</label>
+                    <div className="form-group">
+                      <select className="form-control" name="subject" onClick={handleChange}>
+                        <option value="">Bir konu seçin</option>
+                        <option>Porselen Laminate</option>
+                        <option>İmplant Destekli Protezler</option>
+                        <option>Temporomandibular</option>
+                        <option>Eğitim İmkanları</option>
+                        <option>Diplomalar</option>
+                        <option>Fiyatlar</option>
+                      </select>
+                    </div>
                   </div>
-                </div>
 
                   <div className="col-lg-12 col-md-12">
                     <div className="form-group">
@@ -137,7 +136,7 @@ const ContactForm = () => {
                     </div>
                   </div>
 
-                  <div className="col-lg-6 col-sm-6">
+                  <div className="col d-flex justify-content-center">
                     <button type="submit" className="default-btn btn-two">
                       Gönder
                     </button>

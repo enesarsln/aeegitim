@@ -2,29 +2,30 @@ import nodemailer from "nodemailer";
 import sgTransport from "nodemailer-sendgrid-transport";
 
 const transporter = {
+  host: 'mail.natro.com',
+  port: 587,
+  secure: false,
   auth: {
-    // Update here your SendGrid API key 
-    api_key: "...",
+    user: 'info@aeegitim.com.tr',
+    pass: '@HC8h@g3o2j@I_4N',
   },
 };
 
 const mailer = nodemailer.createTransport(sgTransport(transporter));
 
 export default async (req, res) => {
-  // console.log(req.body)
   const { name, email, number, subject, text } = req.body;
 
   const data = {
-    // Update here your email
     to: "info@aeegitim.com.tr",
     from: email,
-    subject: "Hi there",
+    subject: "Merhabalar",
     text: text,
     html: `
-            <b>From:</b> ${name} <br /> 
-            <b>Number:</b> ${number} <br /> 
-            <b>Subject:</b> ${subject} <br /> 
-            <b>Message:</b> ${text} 
+            <b>Kimden:</b> ${name} <br /> 
+            <b>Telefon Numarası:</b> ${number} <br /> 
+            <b>Konu:</b> ${subject} <br /> 
+            <b>Mesaj:</b> ${text} 
         `,
   };
   try {
