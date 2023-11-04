@@ -5,10 +5,17 @@ import CourseTwoTop from "../components/Courses/CourseTwo/CourseTwoTop";
 import CourseTwoMiddle from "../components/Courses/CourseTwo/CourseTwoMiddle";
 import CourseProgramTwo from "../components/Courses/CourseTwo/CourseProgramTwo";
 import Footer from "../components/_App/Footer";
+import Head from "next/head";
 
 const CourseTwo = () => {
   return (
     <>
+     <Head>
+        <title>AE Eğitim ve Yayıncılık</title>
+        <meta name="description" content="İmplant Destekli Protezler" />
+        <meta name="keywords" content="implant destekli protez, implant destekli protezler, implant, protez"/>
+      </Head>
+
       <Navbar />
 
       <PageBanner

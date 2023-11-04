@@ -5,10 +5,17 @@ import CourseOneTop from "../components/Courses/CourseOne/CourseOneTop";
 import CourseOneMiddle from "../components/Courses/CourseOne/CourseOneMiddle";
 import CourseProgramOne from "../components/Courses/CourseOne/CourseProgramOne";
 import Footer from "../components/_App/Footer";
+import Head from "next/head";
 
 const CourseOne = () => {
   return (
     <>
+      <Head>
+        <title>AE Eğitim ve Yayıncılık</title>
+        <meta name="description" content="Porselen Laminate Veneer" />
+        <meta name="keywords" content="porselen laminate veneer, porselen laminate"/>
+      </Head>
+
       <Navbar />
 
       <PageBanner

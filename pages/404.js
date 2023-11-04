@@ -12,11 +12,11 @@ const Custom404 = () => {
                 <span className="a">4</span> <span className="red">0</span>{" "}
                 <span className="b">4</span>{" "}
               </h1>
-              <h3>Oops! Page Not Found</h3>
-              <p>The page you were looking for could not be found.</p>
+              <h3>Sayfa Bulunamadı!</h3>
+              <p>Aradığınız sayfa bulunamadı.</p>
 
               <Link href="/" className="default-btn page-btn active">
-                Return To Home Page
+                Ana Sayfaya geri dönün
               </Link>
             </div>
           </div>
@@ -27,3 +27,4 @@ const Custom404 = () => {
 };
 
 export default Custom404;
+
