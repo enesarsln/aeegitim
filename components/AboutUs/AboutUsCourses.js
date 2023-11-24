@@ -30,7 +30,7 @@ const AboutUsCourses = () => {
                   </li>
                   <li>
                     <i className="flaticon-tick"></i>
-                    Dental Foto
+                    Dental Fotoğrafçılık
                   </li>
                 </ul>
               </div>

@@ -28,7 +28,7 @@ const MainBanner = () => {
                       data-aos-delay="100"
                       data-aos-duration="1200"
                     >
-                      Bilgi ve Uygulama Bir Arada
+                      Bilime ve Kanıta Dayalı Eğitim
                     </span>
 
                     <h1
@@ -36,7 +36,7 @@ const MainBanner = () => {
                       data-aos-delay="200"
                       data-aos-duration="1200"
                     >
-                      Gülümsemeyi Yeniden İnşa Etmek
+                      Bilgilerinizi Güncellemenin En İyi Yolu
                     </h1>
 
                     <p

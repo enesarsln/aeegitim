@@ -8,17 +8,17 @@ import Footer from "../components/_App/Footer";
 import Head from "next/head";
 
 const Blog = () => {
-    return(
-        <>
-        <Head>
+  return (
+    <>
+      <Head>
         <title>AE Eğitim ve Yayıncılık</title>
         <meta name="description" content="AE Eğitim ve Yayıncılık Blog" />
-        <meta name="keywords" content="ae eğitim blog, blog"/>
-        </Head>
+        <meta name="keywords" content="ae eğitim blog, blog" />
+      </Head>
 
-        <Navbar />
+      <Navbar />
 
-        <PageBanner
+      <PageBanner
         pageTitle="Blog"
         imgClass="bg-1"
       />
@@ -30,8 +30,8 @@ const Blog = () => {
       <BlogPageBottom />
 
       <Footer />
-        </>
-    )
+    </>
+  )
 }
 
 export default Blog

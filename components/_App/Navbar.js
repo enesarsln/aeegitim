@@ -123,7 +123,25 @@ const Navbar = () => {
                               className={`nav-link ${currentPath == "/dental-foto/" && "active"
                                 }`}
                             >
-                              Dental Foto
+                              Dental Fotoğrafçılık
+                            </Link>
+                          </li>
+                          <li className="nav-item">
+                            <Link
+                              href="/temel-implant-cerrahisi/"
+                              className={`nav-link ${currentPath == "/temel-implant-cerrahisi/" && "active"
+                                }`}
+                            >
+                              Temel İmplant Cerrahisi
+                            </Link>
+                          </li>
+                          <li className="nav-item">
+                            <Link
+                              href="/rejeneratif-endodonti/"
+                              className={`nav-link ${currentPath == "/rejeneratif-endodonti/" && "active"
+                                }`}
+                            >
+                              Rejeneratif Endodonti
                             </Link>
                           </li>
                         </ul>

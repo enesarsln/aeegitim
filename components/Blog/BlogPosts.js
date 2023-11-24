@@ -4,17 +4,17 @@ const BlogPosts = () => {
 
     const postContext = [
         {
-            img: "/img/doctors/doctor6.jpg",
-            title: "1.Işıkla Polimerize Olan Rezin Simanlar",
+            img: "/img/blog/blog1.png",
+            title: "1. Işıkla Polimerize Olan Rezin Simanlar",
             text: "Siman seçimi, porselen laminate veneerlerin başarılı bir şekilde simante edilmesinde büyük önem taşır. Işıkla polimerize olan rezin simanlar, mükemmel fiziksel özellikleri ve estetik sonuçları nedeniyle yaygın olarak kullanılır. Bu simanlar, size gerekli olan çalışma süresini ve veneer ile diş yapısı arasında güçlü bir yapışma sağlar. Farklı renklerde ve kıvamlarda piyasada bulunabilen bu simanlar, doğal diş rengiyle mükemmel bir uyum sağlar ve güzel bir gülümseme dönüşümüne olanak tanır. Yeni bir siman alırken aldığınız simanın silan, bond gibi ürünleri ile uyumlu olduğuna veya bir set şeklinde almaya dikkat edebilirsiniz. Özellikle birini önermem bunun yerine en kritik noktanın kullanma talimatlarında yazıldığı gibi uygulanmasının etkinliği açısından en önemli kriter olduğunu aklınızdan çıkarmayın."
         },
         {
-            img: "/img/doctors/doctor7.jpg",
+            img: "/img/blog/blog2.png",
             title: "2. İzolasyon",
             text: "Simantasyon sürecinde uygun izolasyonun sağlanması, optimal bağlantının sağlanması için büyük önem taşır. İzolasyon, kontaminasyonu önler, yapışmanın dayanıklılığını artırır ve veneerlerin ömrünü uzatır. Rubber dam izolasyonu ve gingival bariyerler ve pamuk rulolar gibi izolasyon araçlarının kullanımı gibi teknikler, siman uygulaması için kuru ve temiz bir alan yaratmaya yardımcı olur. İzolasyon ayrıca nemin müdahalesini engeller, böylece veneer ile diş yapısı arasında güvenilir bir bağ sağlar. Her vaka için en uygun izolasyon tekniğini seçmek porselen laminate veneer simantasyonunda önemli aşamalardan birisini oluşturur. Rubber dam ile izolasyon yapmayı planlıyorsanız preparasyon marjininizi oluştururken bunu aklınızda bulundurmanız gerektiğini unutmayın. Çok derin marjin oluşturulduğu durumda rubber dam ile izolasyon zorlaşmaya başlıyacaktır."
         },
         {
-            img: "/img/doctors/doctor8.jpg",
+            img: "/img/blog/blog3.png",
             title: "3. Işık Kaynağı",
             text: "Uygun bir ışık kaynağı, ışıkla polimerize olan rezin simanlarının sertleştirilmesinde ve uygun polimerizasyonun sağlanması için önemlidir. LED ve halojen ışık kaynakları yaygın olarak diş hekimliğinde kullanılır. Işık kaynağının uygun yoğunluk ve dalga boyunu sağladığından emin olmak önemlidir. Doğru sürede uygulamak, sadece dayanıklı bir bağlantıyı sağlamakla kalmaz, aynı zamanda veneerlerin uzun ömürlülüğü ve estetiği için de önemlidir. Işık kaynağı ve süresi özellikle porselen laminate veneer simantasyonunda diğer direkt tekniklere göre çok daha önemlidir. unutmayın ışık eğer opak bir porselen kullandıysanız alttaki rezin simana daha az etki edecektir. ışık ile polimerize olan simanlar kimyasal olarak polimerize etmeye devam etmeyecekleri için en azından önerilen süreler buyunca hatta gerekirse daha uzun süre kullanmayı önerebilirim. oluşan ısının yaratacığı problemlerden kurtulmak için uygulama sırasında ışık ucunu hareket ettirmek ve farklı açılardan uygulamak bir çözüm olabilir."
         },

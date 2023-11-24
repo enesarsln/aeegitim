@@ -12,14 +12,14 @@ const CourseFour = () => {
     <>
       <Head>
         <title>AE Eğitim ve Yayıncılık</title>
-        <meta name="description" content="Dental Foto" />
-        <meta name="keywords" content="dental foto, dental" />
+        <meta name="description" content="Dental Fotoğrafçılık" />
+        <meta name="keywords" content="Dental Fotoğrafçılık, dental" />
       </Head>
 
       <Navbar />
 
       <PageBanner
-        pageTitle="Dental Foto"
+        pageTitle="Dental Fotoğrafçılık"
         imgClass="bg-1"
       />
 
