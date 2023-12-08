@@ -780,38 +780,87 @@ First Facility Area Style
   bottom: 0;
   z-index: 1;
   border-radius: 4px 4px 0 0;
-  width: 1140px;
-  padding: 50px;
-}
-.first-facility-area .shape {
-  position: absolute;
-  right: 0;
-  top: 0;
-  opacity: 0.5;
-  z-index: -1;
+  width: 70%;
+  padding: 40px;
+  overflow-x: auto;
+  white-space: nowrap;
+  text-align: center; 
+  display: flex;
+  align-items: center;
+  overflow-x: hidden; 
+  white-space: nowrap;
 }
 
-.first-facility-item {
-  position: relative;
-  padding-left: 90px;
+.first-facility-area .course-banner-carts {
+  display: flex;
+  align-items: center;
+  animation: scrollItems 30s linear infinite;
 }
-.first-facility-item i {
-  border: 1px dashed #0cb8b6;
-  background-color: #ffffff;
-  width: 70px;
-  height: 70px;
-  line-height: 70px;
-  font-size: 40px;
-  display: inline-block;
-  text-align: center;
-  border-radius: 50%;
-  color: #0cb8b6;
-  position: absolute;
-  left: 0;
-  top: 0;
+
+
+@keyframes scrollItems {
+  0% {
+    transform: translateX(0);
+  }
+
+  16.66% {
+    transform: translateX(0);
+  }
+
+  20% {
+    transform: translateX(-52%);
+  }
+
+  40% {
+    transform: translateX(-52%);
+  }
+
+  50% {
+    transform: translateX(0);
+  }
+
+  66.66% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-52%);
+  }
 }
-.first-facility-item h3 {
-  margin-bottom: 10px;
+
+.course-banner-carts .first-facility-item {
+  margin: auto 20px;
+  padding: 5px;
+  padding-top: 10px;
+  background-color: #0EB8B6;
+  height: 150px;
+  display: flex;
+  width: 285px;
+  border-radius: 5px;
+  border: 2px solid #0f9e9d;
+  white-space: normal;
+  overflow: hidden; 
+  text-align: center; 
+  flex-direction: column;
+}
+
+.first-facility-item a {
+  width: 100%;
+  color: #fff;
+  margin: 0; 
+  white-space: nowrap; 
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.first-facility-item a h3{
+  color: #fff;
+  font-size: 1rem;
+}
+
+.first-facility-item p{
+  font-size: .8rem;
+  color: #000;
+  font-weight: 600;
 }
 
 .popup-youtube {
@@ -4314,4 +4363,18 @@ Page-navigation Area Style*/
   border-radius: 5px;
   border: 1px solid #0cb8b6;
   padding: 5px 10px;
+}
+
+
+
+.contact-area{
+  width: 70%;
+  margin: 10px auto 30px auto;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 3px 5px;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.contact-area .form-group{
+  margin: 20px auto;
 }

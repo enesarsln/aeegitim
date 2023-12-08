@@ -3,6 +3,40 @@ import Link from "next/link";
 import ModalVideo from "react-modal-video";
 
 const MainBanner = () => {
+
+  const coursesInfo = [
+    {
+      name: 'Porselen Laminate Veneer',
+      text: 'Porselen laminate veneer öğrenmek için heyecan verici ve kapsamlı iki günlük kursumuza katılın!',
+      path: '/porselen-laminate-veneer'
+    },
+    {
+      name: 'İmplant Destekli Protezler',
+      text: 'İmplant destekli protezleri öğrenmek için uygulama dolu kapsamlı kursumuza katılmak ister misiniz?',
+      path: '/implant-destekli-protezler'
+    },
+    {
+      name: 'Temporomandibular ...',
+      text: 'Temporomandibular Bozuklukları, Bruksizm, Splint ve Horlama apareyi Tedavisi Uygulamalı Kursumuza katılmak ister misiniz?',
+      path: '/temporomandibular-eklem-rahatsizliklari'
+    },
+    {
+      name: 'Dental Fotoğrafçılık',
+      text: 'Sunum ile başlayacak olan kursumuzda, sunumda kullanılan slaytların spiralli dosya şeklinde çıktıları verilecektir',
+      path: '/dental-foto'
+    },
+    {
+      name: 'Temel Implant Cerrahisi',
+      text: "Türkiye'nin önde gelen hocalarımızdan Prof. Dr. Ateş Parlar'ın yapacağı uygulamalı Temel implant cerrahisi kursu.",
+      path: '/temel-implant-cerrahisi'
+    },
+    {
+      name: 'Rejeneratif Endodonti',
+      text: "Alanında Türkiye'nin en önde gelen isimlerinden Prof. Dr. Tuğba Türk'ün Rejeneratif Endodonti uygulamalı kursunda aşağıdaki konu başlıkları anlatılacaktır.",
+      path: '/rejeneratif-endodonti'
+    },
+  ]
+
   const [isOpen, setOpen] = useState(false);
 
   return (
@@ -86,54 +120,10 @@ const MainBanner = () => {
               </div>
 
               <div className="first-facility-area">
-                <div className="row justify-content-center">
-                  <div className="col-lg-4 col-sm-6">
-                    <div 
-                      className="first-facility-item" 
-                      data-aos="fade-in"
-                      data-aos-delay="100"
-                      data-aos-duration="1200"
-                    >
-                      <i className="flaticon-care"></i>
-                      <h3>Sizlerle Her Adımda</h3>
-                      <p>
-                      Eğitim süreciniz boyunca ve sonrasında, sizin yanınızdayız. 
-                      Profesyonel desteğimizle başarınıza katkıda bulunuyoruz.
-                      </p>
-                    </div>
-                  </div>
-
-                  <div className="col-lg-4 col-sm-6">
-                    <div 
-                      className="first-facility-item" 
-                      data-aos="fade-in"
-                      data-aos-delay="200"
-                      data-aos-duration="1200"
-                    >
-                      <i className="flaticon-support"></i>
-                      <h3>Her Zaman Yanınızdayız</h3>
-                      <p>
-                      İhtiyacınız olduğu her an, 7/24 sizinleyiz.
-                       Size her konuda yardımcı olmak için buradayız.
-                      </p>
-                    </div>
-                  </div>
-
-                  <div className="col-lg-4 col-sm-6">
-                    <div 
-                      className="first-facility-item" 
-                      data-aos="fade-in"
-                      data-aos-delay="300"
-                      data-aos-duration="1200"
-                    >
-                      <i className="flaticon-online-learning"></i>
-                      <h3>Hedeflerinizi Aşın</h3>
-                      <p>
-                      Eğitimlerimiz, başarıya odaklanır ve beklentilerinizi karşılamayı hedefler. 
-                      Siz de hedeflerinizi gerçekleştirmeye başlayın.
-                      </p>
-                    </div>
-                  </div>
+                <div className="course-banner-carts">
+                  {coursesInfo.map((el, key) => (
+                    <CourseCart data={el} key={key}/>
+                  ))}
                 </div>
 
                 <div className="shape">
@@ -149,3 +139,20 @@ const MainBanner = () => {
 };
 
 export default MainBanner;
+
+
+const CourseCart = ({data}) => {
+  return(
+      <div 
+        className="first-facility-item" 
+        data-aos="fade-in"
+        data-aos-delay="200"
+        data-aos-duration="1200"
+      >
+       <Link href={data.path}>
+       <h3>{data.name}</h3>
+       </Link>
+       <p>{data.text}</p>
+      </div>
+  )
+}
