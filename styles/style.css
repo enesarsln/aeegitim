@@ -4315,3 +4315,29 @@ Page-navigation Area Style*/
   border: 1px solid #0cb8b6;
   padding: 5px 10px;
 }
+
+/* ====WHATSAPP==== */
+.whatsapp {
+  position: fixed;
+  left: 15px;
+  bottom: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%; 
+  z-index: 99;
+  background-color: #25d366;
+  padding: 2px;
+}
+
+.whatsapp a {
+  text-decoration: none;
+  color: #fff; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.whatsapp i {
+  font-size: 48px;
+}

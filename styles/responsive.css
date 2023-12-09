@@ -1148,6 +1148,13 @@
   .page-title-area .page-title-content h2 {
     font-size: 25px !important;
 }
+.whatsapp {
+  left: 5px;
+  bottom: 5px;
+}
+.whatsapp i {
+  font-size: 40px;
+}
 
 }
 

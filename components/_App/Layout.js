@@ -2,6 +2,7 @@ import React from "react";
 import Head from "next/head";
 import GoTop from "./GoTop";
 import Preloader from "./Preloader";
+import Whatsapp from "./Whatsapp";
 
 const Layout = ({ children }) => {
   // Preloader
@@ -23,6 +24,8 @@ const Layout = ({ children }) => {
       {children}
 
       {loader ? <Preloader /> : null}
+
+      <Whatsapp />
 
       <GoTop scrollStepInPx="100" delayInMs="10.50" />
     </>
