@@ -27,8 +27,6 @@ const CourseFive = () => {
 
             <CourseFiveMiddle />
 
-            <CourseProgramFive />
-
             <Footer />
         </>
     )

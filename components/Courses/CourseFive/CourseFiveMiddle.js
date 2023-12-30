@@ -5,7 +5,7 @@ const CourseFiveMiddle = () => {
         {
             img: "/img/temel-implant-cerrahisi/temel-implant-cerrahisi-2.jpg",
             img2: "/img/temel-implant-cerrahisi/temel-implant-cerrahisi-3.jpg",
-            text: 
+            text:
                 <ul>
                     <li>İmplant neden uygulanır?</li>
                     <li>İmplant niçin iyi bir tedavi alternatifidir?</li>

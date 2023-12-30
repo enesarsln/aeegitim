@@ -87,9 +87,34 @@
       width: 280px;
     }
   }
+
   .page-title-area {
     padding-top: 170px !important;
     padding-bottom: 170px !important;
+  }
+
+  .first-facility-area {
+    padding-top: 0px !important;
+    padding: 20px !important;
+    position: absolute !important;
+  }
+
+  .course-banner-carts .first-facility-item {
+    height: 110px;
+    width: 240px;
+    margin-bottom: 0px !important;
+  }
+
+  .first-facility-item a h3 {
+    font-size: .8rem;
+  }
+
+  .first-facility-item p {
+    font-size: .7rem;
+  }
+
+  .main-banner-area .banner-img-wrap .banner-img img {
+    max-width: 80% !important;
   }
 }
 
@@ -1122,6 +1147,15 @@
     padding: 20px 5px;
   }
 
+  .whatsapp {
+    left: 5px;
+    bottom: 5px;
+  }
+
+  .whatsapp i {
+    font-size: 40px;
+  }
+
   .course-three-middle .course-three-box.odd {
     flex-direction: column;
   }
@@ -1147,7 +1181,11 @@
 
   .page-title-area .page-title-content h2 {
     font-size: 25px !important;
-}
+  }
+
+  .contact-area {
+    width: 90%;
+  }
 
 }
 
@@ -2256,7 +2294,8 @@
     width: 250px;
   }
 
-  .course-one-middel-text p {
+  .course-one-middel-text p,
+  .course-one-middel-text ul {
     line-height: 1.7rem;
     font-size: .8rem;
   }

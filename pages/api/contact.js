@@ -2,7 +2,7 @@ import nodemailer from "nodemailer";
 import sgTransport from "nodemailer-sendgrid-transport";
 
 const transporter = {
-  host: 'mail.natro.com',
+  host: 'mail.kurumsaleposta.com',
   port: 587,
   secure: false,
   auth: {
