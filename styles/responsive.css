@@ -96,7 +96,6 @@
   .first-facility-area {
     padding-top: 0px !important;
     padding: 20px !important;
-    position: absolute !important;
   }
 
   .course-banner-carts .first-facility-item {
@@ -1404,7 +1403,7 @@
 
   .first-facility-area {
     position: relative;
-    max-width: 100%;
+    width: 100%;
     padding: 20px;
     padding-top: 50px;
     z-index: 1;

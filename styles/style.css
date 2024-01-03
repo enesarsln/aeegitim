@@ -19,8 +19,16 @@ This files table contents are outlined below >>>>>
 ** - Second Facility Area Style
 ** - About Area Style
 ** - Services Area Style
+** - Doctors Area Style
+** - Work Area Style
 ** - Counter Area Style
+** - Appointment Area Style
+** - Emergency Area Style
+** - Client Area Style
 ** - Business Contact Area Style
+** - Blog Area Style
+** - Blog Area Style
+** - Subscribe Area Style
 ** - Footer Top Area Style
 ** - Footer Bottom Area Style
 
@@ -33,6 +41,7 @@ This files table contents are outlined below >>>>>
 ** - Blog Details Area Style
 ** - Contact Area Style
 ** - FAQ Area Style
+** - Client Area Style
 
 ** - OTHER STYLE AREA - **
 ** - Preloader Area Style
@@ -876,214 +885,39 @@ First Facility Area Style
   border-radius: 4px 4px 0 0;
   width: 70%;
   padding: 15px 0px;
-  overflow-x: auto;
-  white-space: nowrap;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  overflow-x: hidden;
-  white-space: nowrap;
 }
 
-.first-facility-area .course-banner-carts {
-  display: flex;
-  align-items: center;
-  animation: scrollItems 30s linear infinite;
-}
-
-/*
-Work Area Style
-======================================================*/
-.our-work-area {
-  height: 100%;
-  position: relative;
-  z-index: 1;
-}
-
-.our-work-area .section-title .top-title {
-  color: #001430;
-}
-
-.our-work-area .shape {
+.first-facility-area .shape {
   position: absolute;
-  top: 0;
   right: 0;
+  top: 0;
+  opacity: 0.5;
   z-index: -1;
-  animation: moveBounce 5s linear infinite;
 }
 
-.our-work-slide .swiper-pagination {
-  position: initial;
-}
-
-.our-work-slide .swiper-pagination .swiper-pagination-bullet {
-  width: 15px;
-  height: 6px;
-  background-color: #e9f8fe;
-  transition: all 0.5s;
-  margin: 0 5px;
-  border-radius: 30px;
-  opacity: 1;
-}
-
-.our-work-slide .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active,
-.our-work-slide .swiper-pagination .swiper-pagination-bullet:hover {
-  background-color: #0cb8b6;
-  width: 25px;
-}
-
-.single-work {
-  text-align: center;
+.first-facility-item {
   position: relative;
-  overflow: hidden;
+  padding-left: 90px;
 }
 
-.single-work {
-  height: 250px;
-}
-
-.single-work .work-title {
+.first-facility-item i {
+  border: 1px dashed #0cb8b6;
   background-color: #ffffff;
-  box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
-  padding: 10px;
-  max-width: 350px;
-  margin: auto;
-  position: absolute;
-  bottom: 5px;
-  left: 0;
-  right: 0;
-  transition: all 0.5s;
-}
-
-.single-work .work-title i {
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  font-size: 40px;
   display: inline-block;
-  width: 40px;
-  height: 40px;
-  line-height: 40px;
-  background-color: #0cb8b6;
+  text-align: center;
   border-radius: 50%;
-  color: #ffffff;
-  margin-right: 20px;
-}
-
-.single-work .work-content-wrap {
-  background-color: #0cb8b6;
-  opacity: 0.9;
+  color: #0cb8b6;
   position: absolute;
-  top: 100%;
   left: 0;
-  width: 100%;
-  height: 100%;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  transition: all 0.5s;
-}
-
-.single-work .work-content-wrap .work-content {
-  padding: 30px;
-}
-
-.single-work .work-content-wrap .work-content h3 {
-  margin-bottom: 15px;
-}
-
-.single-work .work-content-wrap .work-content p {
-  color: #001430;
-}
-
-.single-work .work-content-wrap .work-content .read-more {
-  color: #001430;
-  font-weight: 700;
-  font-size: 14px;
-}
-
-.single-work .work-content-wrap .work-content .read-more:hover i {
-  color: #001430;
-}
-
-.single-work:hover .work-content-wrap {
   top: 0;
 }
 
-.single-work:hover .work-content-wrap .work-content h3,
-.single-work:hover .work-content-wrap .work-content p {
-  color: #fff;
-}
-
-.single-work:hover .work-content-wrap .work-content .read-more {
-  color: #fff;
-}
-
-.single-work:hover .work-title {
-  bottom: -100%;
-}
-
-
-@keyframes scrollItems {
-  0% {
-    transform: translateX(0);
-  }
-
-  16.66% {
-    transform: translateX(0);
-  }
-
-  20% {
-    transform: translateX(-52%);
-  }
-
-  40% {
-    transform: translateX(-52%);
-  }
-
-  50% {
-    transform: translateX(0);
-  }
-
-  66.66% {
-    transform: translateX(0);
-  }
-
-  100% {
-    transform: translateX(-52%);
-  }
-}
-
-.course-banner-carts .first-facility-item {
-  margin: auto 20px;
-  padding: 5px;
-  padding-top: 10px;
-  background-color: #fdffff;
-  height: 150px;
-  display: flex;
-  width: 285px;
-  border-radius: 10px;
-  border: 2px dashed #0f9e9d;
-  white-space: normal;
-  overflow: hidden;
-  text-align: center;
-  flex-direction: column;
-}
-
-.first-facility-item a {
-  width: 100%;
-  color: #fff;
-  margin: 0;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-.first-facility-item a h3 {
-  color: #fff;
-  font-size: 1rem;
-}
-
-.first-facility-item p {
-  font-size: .8rem;
-  color: #000;
-  font-weight: 600;
+.first-facility-item h3 {
+  margin-bottom: 10px;
 }
 
 .popup-youtube {
@@ -1384,6 +1218,207 @@ Services Area Style
 
 .single-services:hover .read-more i {
   color: #ffffff;
+}
+
+/*
+Doctors Area Style
+======================================================*/
+.single-doctor {
+  text-align: center;
+  background-color: #e9f8fe;
+  padding: 30px;
+  margin-bottom: 30px;
+  position: relative;
+  z-index: 1;
+}
+
+.single-doctor img {
+  background-color: #0cb8b6;
+  border-radius: 100% 0 100% 100%;
+  margin-bottom: 20px;
+  transition: all 0.5s;
+}
+
+.single-doctor h3 {
+  margin-bottom: 5px;
+}
+
+.single-doctor .top-title {
+  margin-bottom: 5px;
+  transition: all 0.5s;
+}
+
+.single-doctor ul {
+  line-height: 1;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.single-doctor ul li {
+  display: inline-block;
+  padding: 0 3px;
+}
+
+.single-doctor ul li i {
+  color: #ffffff;
+  background-color: #0cb8b6;
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.single-doctor:hover img {
+  background-color: #ffffff;
+}
+
+.single-doctor:hover::before {
+  width: 50%;
+}
+
+.single-doctor:hover::after {
+  width: 50%;
+}
+
+.single-doctor:hover .top-title {
+  color: #001430;
+}
+
+.doctors-slide .swiper-button-prev::after,
+.doctors-slide .swiper-button-next::after {
+  color: #0cb8b6;
+  font-size: 30px;
+}
+
+/*
+Work Area Style
+======================================================*/
+.our-work-area {
+  background-image: url(/img/work-bg.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+.our-work-area .section-title .top-title {
+  color: #001430;
+}
+
+.our-work-area .shape {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+  animation: moveBounce 5s linear infinite;
+}
+
+.our-work-slide .swiper-pagination {
+  position: initial;
+}
+
+.our-work-slide .swiper-pagination .swiper-pagination-bullet {
+  width: 15px;
+  height: 6px;
+  background-color: #e9f8fe;
+  transition: all 0.5s;
+  margin: 0 5px;
+  border-radius: 30px;
+  opacity: 1;
+}
+
+.our-work-slide .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active,
+.our-work-slide .swiper-pagination .swiper-pagination-bullet:hover {
+  background-color: #0cb8b6;
+  width: 25px;
+}
+
+.single-work {
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  height: 240px;
+}
+
+.single-work .work-title {
+  background-color: #ffffff;
+  box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
+  padding: 10px;
+  max-width: 350px;
+  margin: auto;
+  position: absolute;
+  bottom: 5px;
+  left: 0;
+  right: 0;
+  transition: all 0.5s;
+}
+
+.single-work .work-title i {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  background-color: #0cb8b6;
+  border-radius: 50%;
+  color: #ffffff;
+  margin-right: 20px;
+}
+
+.single-work .work-content-wrap {
+  background-color: #0cb8b6;
+  opacity: 0.9;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  transition: all 0.5s;
+}
+
+.single-work .work-content-wrap .work-content {
+  padding: 30px;
+}
+
+.single-work .work-content-wrap .work-content h3 {
+  margin-bottom: 15px;
+}
+
+.single-work .work-content-wrap .work-content p {
+  color: #001430;
+}
+
+.single-work .work-content-wrap .work-content .read-more {
+  color: #001430;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.single-work .work-content-wrap .work-content .read-more:hover i {
+  color: #001430;
+}
+
+.single-work:hover .work-content-wrap {
+  top: 0;
+}
+
+.single-work:hover .work-content-wrap .work-content h3,
+.single-work:hover .work-content-wrap .work-content p {
+  color: #fff;
+}
+
+.single-work:hover .work-content-wrap .work-content .read-more {
+  color: #fff;
+}
+
+.single-work:hover .work-title {
+  bottom: -100%;
 }
 
 /*
