@@ -274,7 +274,6 @@
     content: "";
     position: absolute;
     top: 0;
-    right: -150px;
     width: 200px;
     height: 100%;
     background-color: #d6fbfd;
@@ -1424,7 +1423,6 @@
     content: "";
     position: absolute;
     top: 0;
-    right: -150px;
     width: 200px;
     height: 100%;
     background-color: #d6fbfd;
